@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name w_smd_diode)(type KiCad)(uri "$(KIPRJMOD)/footprint/w_smd_diode/mod_smd_diode/w_smd_diode.pretty")(options "")(descr ""))
+  (lib (name w_conn_mkds)(type KiCad)(uri "$(KIPRJMOD)/footprint/w_conn_mkds/mod_conn_mkds/w_conn_mkds.pretty")(options "")(descr ""))
+  (lib (name w_smd_trans)(type KiCad)(uri "$(KIPRJMOD)/footprint/w_smd_trans/mod_smd_trans/w_smd_trans.pretty")(options "")(descr ""))
+  (lib (name KiCad_Footprint)(type Github)(uri https://github.com/S-SINKER/KiCad_Footprint.pretty)(options "")(descr ""))
+  (lib (name inductor)(type KiCad)(uri "$(KIPRJMOD)\\footprint\\inductor.pretty")(options "")(descr ""))
+)

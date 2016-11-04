@@ -1,0 +1,570 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32
+LIBS:custom_lib
+LIBS:USB_Dist_Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32F103CBTx U2
+U 1 1 57FFEDE4
+P 5800 3650
+AR Path="/57F84F92/57FFEDE4" Ref="U2"  Part="1" 
+AR Path="/57FF4952/57FFEDE4" Ref="U3"  Part="1" 
+F 0 "U2" H 3000 5375 50  0000 L BNN
+F 1 "STM32F103CBT6" H 8600 5375 50  0000 R BNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 8600 5325 50  0000 R TNN
+F 3 "" H 5800 3650 50  0000 C CNN
+F 4 "DigiKey" H 5800 3650 60  0001 C CNN "Vender"
+F 5 "497-6288-ND" H 5800 3650 60  0001 C CNN "Part #"
+F 6 "7944.00" H 5800 3650 60  0001 C CNN "Unit price(won)"
+	1    5800 3650
+	1    0    0    -1  
+$EndComp
+Text HLabel 5150 1600 0    60   Input ~ 0
+3V3
+Text HLabel 5150 925  0    60   Input ~ 0
+3V3
+$Comp
+L C C4
+U 1 1 57FFEDE5
+P 5375 1125
+AR Path="/57F84F92/57FFEDE5" Ref="C4"  Part="1" 
+AR Path="/57FF4952/57FFEDE5" Ref="C10"  Part="1" 
+F 0 "C4" H 5400 1225 50  0000 L CNN
+F 1 "1uF" H 5400 1025 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5413 975 50  0001 C CNN
+F 3 "" H 5375 1125 50  0000 C CNN
+	1    5375 1125
+	1    0    0    -1  
+$EndComp
+Text Label 2350 2850 0    60   ~ 0
+OSC_IN
+Text Label 2350 2950 0    60   ~ 0
+OSC_OUT
+$Comp
+L CRYSTAL_SMD X1
+U 1 1 57FFEDE6
+P 1225 3050
+AR Path="/57F84F92/57FFEDE6" Ref="X1"  Part="1" 
+AR Path="/57FF4952/57FFEDE6" Ref="X2"  Part="1" 
+F 0 "X1" V 1300 3175 50  0000 C CNN
+F 1 "8.000Mhz" V 1100 3100 50  0000 L CNN
+F 2 "KiCad_Footprint:crystal_maple" H 1225 3050 50  0001 C CNN
+F 3 "" H 1225 3050 50  0000 C CNN
+F 4 "DigiKey" V 1225 3050 60  0001 C CNN "Vender"
+F 5 "535-9720-1-ND" V 1225 3050 60  0001 C CNN "Part #"
+F 6 "815.00" V 1225 3050 60  0001 C CNN "Unit price(won)"
+	1    1225 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C2
+U 1 1 57FFEDE7
+P 900 2850
+AR Path="/57F84F92/57FFEDE7" Ref="C2"  Part="1" 
+AR Path="/57FF4952/57FFEDE7" Ref="C8"  Part="1" 
+F 0 "C2" H 925 2950 50  0000 L CNN
+F 1 "26pF" H 925 2750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 938 2700 50  0001 C CNN
+F 3 "" H 900 2850 50  0000 C CNN
+	1    900  2850
+	0    1    1    0   
+$EndComp
+$Comp
+L C C3
+U 1 1 57FFEDE8
+P 900 3250
+AR Path="/57F84F92/57FFEDE8" Ref="C3"  Part="1" 
+AR Path="/57FF4952/57FFEDE8" Ref="C9"  Part="1" 
+F 0 "C3" H 925 3350 50  0000 L CNN
+F 1 "26pF" H 925 3150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 938 3100 50  0001 C CNN
+F 3 "" H 900 3250 50  0000 C CNN
+	1    900  3250
+	0    1    1    0   
+$EndComp
+Text Label 1475 2850 0    60   ~ 0
+OSC_OUT
+Text Label 1550 3250 0    60   ~ 0
+OSC_IN
+NoConn ~ 2900 2650
+Text HLabel 1400 2450 0    60   Input ~ 0
+3V3
+$Comp
+L R R8
+U 1 1 57FFEDE9
+P 2475 1825
+AR Path="/57F84F92/57FFEDE9" Ref="R8"  Part="1" 
+AR Path="/57FF4952/57FFEDE9" Ref="R18"  Part="1" 
+F 0 "R8" V 2555 1825 50  0000 C CNN
+F 1 "10k" V 2475 1825 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2405 1825 50  0001 C CNN
+F 3 "" H 2475 1825 50  0000 C CNN
+	1    2475 1825
+	1    0    0    -1  
+$EndComp
+Text Label 2325 2450 0    60   ~ 0
+BOOT0
+Text Label 2125 4350 0    60   ~ 0
+BOOT0
+$Comp
+L SW_PUSH SW1
+U 1 1 57FFEDEA
+P 1975 2250
+AR Path="/57F84F92/57FFEDEA" Ref="SW1"  Part="1" 
+AR Path="/57FF4952/57FFEDEA" Ref="SW3"  Part="1" 
+F 0 "SW1" H 2125 2360 50  0000 C CNN
+F 1 "RESET" H 1725 2375 50  0000 C CNN
+F 2 "KiCad_Footprint:smd_push" H 1875 2375 50  0001 C CNN
+F 3 "" H 1975 2250 50  0000 C CNN
+F 4 "DeviceMart" H 1975 2250 60  0001 C CNN "Vender"
+F 5 "2220" H 1975 2250 60  0001 C CNN "Part #"
+F 6 "90.00" H 1975 2250 60  0001 C CNN "Unit price(won)"
+	1    1975 2250
+	1    0    0    -1  
+$EndComp
+Text HLabel 2675 1675 1    60   Input ~ 0
+3V3
+$Comp
+L LED D1
+U 1 1 57F89810
+P 1700 3975
+AR Path="/57F84F92/57F89810" Ref="D1"  Part="1" 
+AR Path="/57FF4952/57F89810" Ref="D2"  Part="1" 
+F 0 "D1" H 1700 4075 50  0000 C CNN
+F 1 "LED" H 1700 3875 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 1700 3975 50  0001 C CNN
+F 3 "" H 1700 3975 50  0000 C CNN
+F 4 "DigiKey" H 1700 3975 60  0001 C CNN "Vender"
+F 5 "160-1426-1-ND" H 1700 3975 60  0001 C CNN "Part #"
+F 6 "383.00" H 1700 3975 60  0001 C CNN "Unit price(won)"
+	1    1700 3975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R4
+U 1 1 57F89CFC
+P 1700 4400
+AR Path="/57F84F92/57F89CFC" Ref="R4"  Part="1" 
+AR Path="/57FF4952/57F89CFC" Ref="R14"  Part="1" 
+F 0 "R4" V 1780 4400 50  0000 C CNN
+F 1 "330" V 1700 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1630 4400 50  0001 C CNN
+F 3 "" H 1700 4400 50  0000 C CNN
+	1    1700 4400
+	1    0    0    -1  
+$EndComp
+Text Label 2125 4450 0    60   ~ 0
+DISC
+Text Label 8750 4650 0    60   ~ 0
+USBDM
+Text Label 8750 4750 0    60   ~ 0
+USBDP
+$Comp
+L R R11
+U 1 1 57F8C49D
+P 10525 4650
+AR Path="/57F84F92/57F8C49D" Ref="R11"  Part="1" 
+AR Path="/57FF4952/57F8C49D" Ref="R21"  Part="1" 
+F 0 "R11" V 10450 4650 50  0000 C CNN
+F 1 "22" V 10525 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10455 4650 50  0001 C CNN
+F 3 "" H 10525 4650 50  0000 C CNN
+	1    10525 4650
+	0    1    1    0   
+$EndComp
+Text HLabel 11000 4650 2    60   Input ~ 0
+D-
+Text HLabel 11000 4750 2    60   Input ~ 0
+D+
+$Comp
+L CONN_01X03 P2
+U 1 1 57F91EB4
+P 10825 3675
+AR Path="/57F84F92/57F91EB4" Ref="P2"  Part="1" 
+AR Path="/57FF4952/57F91EB4" Ref="P3"  Part="1" 
+F 0 "P2" H 10825 3875 50  0000 C CNN
+F 1 "CONN_01X03" V 10925 3675 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 10825 3675 50  0001 C CNN
+F 3 "" H 10825 3675 50  0000 C CNN
+	1    10825 3675
+	1    0    0    -1  
+$EndComp
+Text Label 10350 3675 0    60   ~ 0
+TX1
+Text Label 10350 3775 0    60   ~ 0
+RX1
+Text Label 9100 4450 0    60   ~ 0
+TX1
+Text Label 9100 4550 0    60   ~ 0
+RX1
+$Comp
+L R R12
+U 1 1 57F9A763
+P 10525 4750
+AR Path="/57F84F92/57F9A763" Ref="R12"  Part="1" 
+AR Path="/57FF4952/57F9A763" Ref="R22"  Part="1" 
+F 0 "R12" V 10625 4750 50  0000 C CNN
+F 1 "22" V 10525 4750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10455 4750 50  0001 C CNN
+F 3 "" H 10525 4750 50  0000 C CNN
+	1    10525 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 57FFEDF3
+P 2675 1825
+AR Path="/57F84F92/57FFEDF3" Ref="R9"  Part="1" 
+AR Path="/57FF4952/57FFEDF3" Ref="R19"  Part="1" 
+F 0 "R9" V 2755 1825 50  0000 C CNN
+F 1 "10k" V 2675 1825 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2605 1825 50  0001 C CNN
+F 3 "" H 2675 1825 50  0000 C CNN
+	1    2675 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 SW2
+U 1 1 57F9B211
+P 1975 2650
+AR Path="/57F84F92/57F9B211" Ref="SW2"  Part="1" 
+AR Path="/57FF4952/57F9B211" Ref="SW4"  Part="1" 
+F 0 "SW2" V 1975 2850 50  0000 C CNN
+F 1 "BOOT" V 1950 2425 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 2000 2500 50  0001 C CNN
+F 3 "" H 1975 2650 50  0000 C CNN
+	1    1975 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L C C5
+U 1 1 57FFEDED
+P 5600 1125
+AR Path="/57F84F92/57FFEDED" Ref="C5"  Part="1" 
+AR Path="/57FF4952/57FFEDED" Ref="C11"  Part="1" 
+F 0 "C5" H 5625 1225 50  0000 L CNN
+F 1 "1uF" H 5625 1025 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5638 975 50  0001 C CNN
+F 3 "" H 5600 1125 50  0000 C CNN
+	1    5600 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 57FFEDEE
+P 5825 1125
+AR Path="/57F84F92/57FFEDEE" Ref="C6"  Part="1" 
+AR Path="/57FF4952/57FFEDEE" Ref="C12"  Part="1" 
+F 0 "C6" H 5850 1225 50  0000 L CNN
+F 1 "1uF" H 5850 1025 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5863 975 50  0001 C CNN
+F 3 "" H 5825 1125 50  0000 C CNN
+	1    5825 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 57FFEDEF
+P 6050 1125
+AR Path="/57F84F92/57FFEDEF" Ref="C7"  Part="1" 
+AR Path="/57FF4952/57FFEDEF" Ref="C13"  Part="1" 
+F 0 "C7" H 6075 1225 50  0000 L CNN
+F 1 "1uF" H 6075 1025 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6088 975 50  0001 C CNN
+F 3 "" H 6050 1125 50  0000 C CNN
+	1    6050 1125
+	1    0    0    -1  
+$EndComp
+Text HLabel 9250 4150 2    60   Input ~ 0
+PWM1
+Text HLabel 9250 4250 2    60   Input ~ 0
+PWM2
+Text HLabel 2125 3550 0    60   Input ~ 0
+PWM3
+Text HLabel 9250 4350 2    60   Input ~ 0
+PWM4
+Text HLabel 9325 4450 2    60   Input ~ 0
+PWM5
+Text HLabel 9325 4550 2    60   Input ~ 0
+PWM6
+Text HLabel 9150 3950 2    60   Input ~ 0
+ADC1
+Text HLabel 6050 1600 3    60   Input ~ 0
+GND
+Text HLabel 1400 2250 0    60   Input ~ 0
+GND
+Text HLabel 2475 1625 1    60   Input ~ 0
+GND
+Text HLabel 625  3050 0    60   Input ~ 0
+GND
+Text HLabel 2150 3750 0    60   Input ~ 0
+GND
+Text HLabel 1700 4625 3    60   Input ~ 0
+GND
+Text HLabel 5900 5600 3    60   Input ~ 0
+GND
+Text HLabel 10250 3575 0    60   Input ~ 0
+GND
+$Comp
+L Q_PMOS_GSD Q1
+U 1 1 5801E528
+P 9450 5375
+F 0 "Q1" H 9750 5425 50  0000 R CNN
+F 1 "BSS84" H 9875 5300 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9650 5475 50  0001 C CNN
+F 3 "" H 9450 5375 50  0000 C CNN
+F 4 "DigiKey" H 9450 5375 60  0001 C CNN "Vender"
+F 5 "BSS84TR-ND" H 9450 5375 60  0001 C CNN "Part #"
+	1    9450 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5801E531
+P 9550 4900
+F 0 "R5" V 9630 4900 50  0000 C CNN
+F 1 "1.5k" V 9550 4900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9480 4900 50  0001 C CNN
+F 3 "" H 9550 4900 50  0000 C CNN
+	1    9550 4900
+	1    0    0    -1  
+$EndComp
+Text HLabel 9550 6075 3    60   Input ~ 0
+3V3
+$Comp
+L C C22
+U 1 1 5801E53C
+P 10025 4975
+F 0 "C22" H 10050 5075 50  0000 L CNN
+F 1 "47pF" H 10050 4875 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10063 4825 50  0001 C CNN
+F 3 "" H 10025 4975 50  0000 C CNN
+	1    10025 4975
+	1    0    0    -1  
+$EndComp
+Text HLabel 10275 5300 3    60   Input ~ 0
+GND
+$Comp
+L C C23
+U 1 1 5801E548
+P 10275 4975
+F 0 "C23" H 10300 5075 50  0000 L CNN
+F 1 "47pF" H 10300 4875 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10313 4825 50  0001 C CNN
+F 3 "" H 10275 4975 50  0000 C CNN
+	1    10275 4975
+	1    0    0    -1  
+$EndComp
+Text Label 8650 5375 0    60   ~ 0
+DISC
+$Comp
+L R R3
+U 1 1 5801ECEA
+P 9025 5700
+F 0 "R3" V 9105 5700 50  0000 C CNN
+F 1 "10k" V 9025 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8955 5700 50  0001 C CNN
+F 3 "" H 9025 5700 50  0000 C CNN
+	1    9025 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1850 5900 1600
+Wire Wire Line
+	5900 1600 5150 1600
+Wire Wire Line
+	5800 1850 5800 1600
+Connection ~ 5800 1600
+Wire Wire Line
+	5700 1850 5700 1600
+Connection ~ 5700 1600
+Wire Wire Line
+	5600 1850 5600 1600
+Connection ~ 5600 1600
+Wire Wire Line
+	5375 1350 6050 1350
+Wire Wire Line
+	5825 1350 5825 1275
+Connection ~ 6050 1350
+Wire Wire Line
+	5600 1350 5600 1275
+Connection ~ 5825 1350
+Wire Wire Line
+	5375 1350 5375 1275
+Connection ~ 5600 1350
+Wire Wire Line
+	5150 925  6050 925 
+Wire Wire Line
+	6050 925  6050 975 
+Wire Wire Line
+	5825 975  5825 925 
+Connection ~ 5825 925 
+Wire Wire Line
+	5600 975  5600 925 
+Connection ~ 5600 925 
+Wire Wire Line
+	5375 975  5375 925 
+Connection ~ 5375 925 
+Wire Wire Line
+	5900 5450 5900 5600
+Wire Wire Line
+	5800 5450 5800 5525
+Wire Wire Line
+	5600 5525 5900 5525
+Connection ~ 5900 5525
+Wire Wire Line
+	5700 5450 5700 5525
+Connection ~ 5800 5525
+Wire Wire Line
+	5600 5450 5600 5525
+Connection ~ 5700 5525
+Wire Wire Line
+	2900 2850 2350 2850
+Wire Wire Line
+	2900 2950 2350 2950
+Wire Wire Line
+	625  3050 1125 3050
+Wire Wire Line
+	750  2850 700  2850
+Wire Wire Line
+	700  2850 700  3250
+Wire Wire Line
+	700  3250 750  3250
+Connection ~ 700  3050
+Wire Wire Line
+	1050 2850 1850 2850
+Wire Wire Line
+	1050 3250 1850 3250
+Connection ~ 1225 2850
+Connection ~ 1225 3250
+Wire Wire Line
+	1400 2450 1925 2450
+Wire Wire Line
+	2025 2450 2900 2450
+Wire Wire Line
+	2475 1975 2475 2450
+Connection ~ 2475 2450
+Wire Wire Line
+	2475 1625 2475 1675
+Wire Wire Line
+	2150 3750 2900 3750
+Wire Wire Line
+	2900 4350 2125 4350
+Wire Wire Line
+	1400 2250 1675 2250
+Wire Wire Line
+	2275 2250 2900 2250
+Wire Wire Line
+	2675 1975 2675 2250
+Connection ~ 2675 2250
+Wire Wire Line
+	2900 3650 1700 3650
+Wire Wire Line
+	1700 3650 1700 3775
+Wire Wire Line
+	1700 4175 1700 4250
+Wire Wire Line
+	1700 4550 1700 4625
+Wire Wire Line
+	2900 4450 2125 4450
+Wire Wire Line
+	8700 4650 10375 4650
+Wire Wire Line
+	8700 4750 10375 4750
+Wire Wire Line
+	10250 3575 10625 3575
+Wire Wire Line
+	10625 3675 10100 3675
+Wire Wire Line
+	10625 3775 10100 3775
+Wire Wire Line
+	8700 4450 9325 4450
+Wire Wire Line
+	8700 4550 9325 4550
+Wire Wire Line
+	8700 3950 9150 3950
+Wire Wire Line
+	6050 1275 6050 1600
+Wire Wire Line
+	9550 5050 9550 5175
+Wire Wire Line
+	9550 5575 9550 6075
+Wire Wire Line
+	9250 5375 8625 5375
+Wire Wire Line
+	10275 5125 10275 5300
+Wire Wire Line
+	10275 5225 10025 5225
+Wire Wire Line
+	10025 5225 10025 5125
+Connection ~ 10275 5225
+Wire Wire Line
+	9025 5975 9550 5975
+Connection ~ 9550 5975
+Wire Wire Line
+	10025 4650 10025 4825
+Wire Wire Line
+	10275 4825 10275 4750
+Connection ~ 10275 4750
+Wire Wire Line
+	9025 5375 9025 5550
+Connection ~ 9025 5375
+Wire Wire Line
+	9025 5850 9025 5975
+Connection ~ 9550 4750
+Connection ~ 10025 4650
+Wire Wire Line
+	10675 4650 11000 4650
+Wire Wire Line
+	10675 4750 11000 4750
+Wire Wire Line
+	8700 4150 9250 4150
+Wire Wire Line
+	8700 4250 9250 4250
+Wire Wire Line
+	8700 4350 9250 4350
+Wire Wire Line
+	2900 3550 2125 3550
+$EndSCHEMATC
