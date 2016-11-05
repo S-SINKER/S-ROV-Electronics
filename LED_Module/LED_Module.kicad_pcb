@@ -3,7 +3,7 @@
   (general
     (links 39)
     (no_connects 39)
-    (area 63.424999 69.924999 128.075001 100.075001)
+    (area 63.424999 69.924999 169.230002 144.3)
     (thickness 1.6)
     (drawings 6)
     (tracks 0)
@@ -666,7 +666,7 @@
     )
   )
 
-  (gr_circle (center 68.5 96.5) (end 68.5 98) (layer Edge.Cuts) (width 0.15))
+  (gr_circle (center 67 96.5) (end 67 98) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 100 100) (end 63.5 100) (angle 55.2772371) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 100 100) (end 128 76.585261) (angle -15.3734978) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 120.790623 70) (end 79.209377 70) (layer Edge.Cuts) (width 0.15))

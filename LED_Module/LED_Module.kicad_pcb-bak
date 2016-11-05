@@ -3,7 +3,7 @@
   (general
     (links 39)
     (no_connects 39)
-    (area 63.424999 69.924999 117.075001 100.075001)
+    (area 63.424999 69.924999 128.075001 100.075001)
     (thickness 1.6)
     (drawings 6)
     (tracks 0)
@@ -542,7 +542,7 @@
   )
 
   (module KiCad_Footprint:Socket_Strip_Angled_2x04 locked (layer F.Cu) (tedit 580C40D9) (tstamp 580C4243)
-    (at 103.91 86.5 180)
+    (at 103.81 85.04 180)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /580C66C0)
@@ -605,7 +605,7 @@
   )
 
   (module KiCad_Footprint:Socket_Strip_Angled_2x04 locked (layer F.Cu) (tedit 580C40D9) (tstamp 580CED0E)
-    (at 110.96 93.16 90)
+    (at 112.5 93.16 90)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /580D82DB)
@@ -666,11 +666,11 @@
     )
   )
 
-  (gr_arc (start 100 100) (end 63.5 100) (angle 55.27723707) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 91 70) (end 79.209377 70) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 91 80.5) (end 91 70) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 117 80.5) (end 91 80.5) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 117 100) (end 117 80.5) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 117 100) (end 63.5 100) (layer Edge.Cuts) (width 0.15))
+  (gr_circle (center 68.5 96.5) (end 68.5 98) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 100 100) (end 63.5 100) (angle 55.2772371) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 100 100) (end 128 76.585261) (angle -15.3734978) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 120.790623 70) (end 79.209377 70) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 128 100) (end 128 76.585261) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 128 100) (end 63.5 100) (layer Edge.Cuts) (width 0.15))
 
 )
