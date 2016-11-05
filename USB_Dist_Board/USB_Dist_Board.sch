@@ -238,8 +238,6 @@ Text Label 950  5100 0    60   ~ 0
 SCL
 Text Label 950  4975 0    60   ~ 0
 SDA
-Text Label 2975 4725 0    60   ~ 0
-USB_B_GND
 $Comp
 L CONN_01X04 P5
 U 1 1 58025F22
@@ -494,8 +492,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 6200 8300 6200
 Wire Wire Line
-	950  4425 3575 4425
-Wire Wire Line
 	9000 3975 8300 3975
 Wire Wire Line
 	9000 925  8300 925 
@@ -523,8 +519,6 @@ Connection ~ 1550 4975
 Wire Wire Line
 	1775 4875 1775 5100
 Connection ~ 1775 5100
-Wire Wire Line
-	3575 4725 2975 4725
 Wire Wire Line
 	1325 5875 1975 5875
 Wire Wire Line
@@ -614,4 +608,6 @@ F 3 "" H 3825 3275 50  0000 C CNN
 	1    3825 4475
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	950  4425 2150 4425
 $EndSCHEMATC

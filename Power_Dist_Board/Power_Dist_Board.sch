@@ -1,0 +1,528 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom_lib
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TENDA_P200 U1
+U 1 1 581D6DED
+P 9550 1975
+F 0 "U1" H 9950 1825 60  0000 C CNN
+F 1 "TENDA_P200" H 9150 3025 60  0000 C CNN
+F 2 "KiCad_Footprint:Tenda_p200" H 9300 1625 60  0001 C CNN
+F 3 "" H 9550 1975 60  0000 C CNN
+	1    9550 1975
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10400 1825
+$Comp
+L GND #PWR01
+U 1 1 581D6EF0
+P 8375 1325
+F 0 "#PWR01" H 8375 1075 50  0001 C CNN
+F 1 "GND" H 8375 1175 50  0000 C CNN
+F 2 "" H 8375 1325 50  0000 C CNN
+F 3 "" H 8375 1325 50  0000 C CNN
+	1    8375 1325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 1325 8375 1325
+Wire Wire Line
+	10400 1125 10825 1125
+Text Label 10675 1125 0    60   ~ 0
+T_+
+Wire Wire Line
+	10400 1325 10725 1325
+$Comp
+L GND #PWR02
+U 1 1 581D6F81
+P 10725 1325
+F 0 "#PWR02" H 10725 1075 50  0001 C CNN
+F 1 "GND" H 10725 1175 50  0000 C CNN
+F 2 "" H 10725 1325 50  0000 C CNN
+F 3 "" H 10725 1325 50  0000 C CNN
+	1    10725 1325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 1125 7875 1125
+Text Label 7875 1125 0    60   ~ 0
+3V3
+$Comp
+L R R1
+U 1 1 581D744D
+P 8125 1525
+F 0 "R1" V 8205 1525 50  0000 C CNN
+F 1 "R" V 8125 1525 50  0000 C CNN
+F 2 "" V 8055 1525 50  0000 C CNN
+F 3 "" H 8125 1525 50  0000 C CNN
+	1    8125 1525
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 581D749D
+P 8125 1725
+F 0 "R2" V 8205 1725 50  0000 C CNN
+F 1 "R" V 8125 1725 50  0000 C CNN
+F 2 "" V 8055 1725 50  0000 C CNN
+F 3 "" H 8125 1725 50  0000 C CNN
+	1    8125 1725
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 581D74E3
+P 8125 1925
+F 0 "R3" V 8205 1925 50  0000 C CNN
+F 1 "R" V 8125 1925 50  0000 C CNN
+F 2 "" V 8055 1925 50  0000 C CNN
+F 3 "" H 8125 1925 50  0000 C CNN
+	1    8125 1925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8275 1525 8550 1525
+Wire Wire Line
+	8550 1725 8275 1725
+Wire Wire Line
+	8275 1925 8550 1925
+$Comp
+L LED D1
+U 1 1 581D7533
+P 7650 1525
+F 0 "D1" H 7650 1625 50  0000 C CNN
+F 1 "LED" H 7650 1425 50  0000 C CNN
+F 2 "" H 7650 1525 50  0000 C CNN
+F 3 "" H 7650 1525 50  0000 C CNN
+	1    7650 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 581D7575
+P 7650 1725
+F 0 "D2" H 7650 1825 50  0000 C CNN
+F 1 "LED" H 7650 1625 50  0000 C CNN
+F 2 "" H 7650 1725 50  0000 C CNN
+F 3 "" H 7650 1725 50  0000 C CNN
+	1    7650 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D3
+U 1 1 581D75A3
+P 7650 1925
+F 0 "D3" H 7650 2025 50  0000 C CNN
+F 1 "LED" H 7650 1825 50  0000 C CNN
+F 2 "" H 7650 1925 50  0000 C CNN
+F 3 "" H 7650 1925 50  0000 C CNN
+	1    7650 1925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 1525 7975 1525
+Wire Wire Line
+	7975 1725 7850 1725
+Wire Wire Line
+	7850 1925 7975 1925
+$Comp
+L GND #PWR03
+U 1 1 581D7652
+P 7325 1625
+F 0 "#PWR03" H 7325 1375 50  0001 C CNN
+F 1 "GND" H 7325 1475 50  0000 C CNN
+F 2 "" H 7325 1625 50  0000 C CNN
+F 3 "" H 7325 1625 50  0000 C CNN
+	1    7325 1625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 1525 7325 1525
+Wire Wire Line
+	7325 1525 7325 1725
+Wire Wire Line
+	7325 1725 7450 1725
+Connection ~ 7325 1625
+Wire Wire Line
+	7450 1925 7025 1925
+Text Label 7025 1925 0    60   ~ 0
+3V3
+$Comp
+L CONN_01X03 P1
+U 1 1 581D7992
+P 2050 1050
+F 0 "P1" H 2050 1250 50  0000 C CNN
+F 1 "CONN_01X03" V 2150 1050 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 2050 1050 50  0001 C CNN
+F 3 "" H 2050 1050 50  0000 C CNN
+	1    2050 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1050 1250 1050
+Text Label 1250 950  0    60   ~ 0
+V_BAT+
+$Comp
+L GND #PWR04
+U 1 1 581D7B07
+P 1250 1050
+F 0 "#PWR04" H 1250 800 50  0001 C CNN
+F 1 "GND" H 1250 900 50  0000 C CNN
+F 2 "" H 1250 1050 50  0000 C CNN
+F 3 "" H 1250 1050 50  0000 C CNN
+	1    1250 1050
+	0    1    1    0   
+$EndComp
+Text Label 1250 1150 0    60   ~ 0
+T_+
+Wire Wire Line
+	1850 1150 1250 1150
+Wire Wire Line
+	1850 950  1250 950 
+$Comp
+L CONN_01X03 P2
+U 1 1 581D80D0
+P 2050 1825
+F 0 "P2" H 2050 2025 50  0000 C CNN
+F 1 "CONN_01X03" V 2150 1825 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 2050 1825 50  0001 C CNN
+F 3 "" H 2050 1825 50  0000 C CNN
+	1    2050 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1725 1250 1725
+Wire Wire Line
+	1850 1825 1250 1825
+Wire Wire Line
+	1850 1925 1250 1925
+Text Label 1250 1725 0    60   ~ 0
+Motor_1A
+Text Label 1250 1825 0    60   ~ 0
+Motor_1B
+Text Label 1250 1925 0    60   ~ 0
+Motor_1C
+Wire Wire Line
+	1850 2325 1250 2325
+Wire Wire Line
+	1850 2425 1250 2425
+Wire Wire Line
+	1850 2525 1250 2525
+Text Label 1250 2325 0    60   ~ 0
+Motor_2A
+Text Label 1250 2425 0    60   ~ 0
+Motor_2B
+Text Label 1250 2525 0    60   ~ 0
+Motor_2C
+Wire Wire Line
+	1850 2925 1250 2925
+Wire Wire Line
+	1850 3025 1250 3025
+Wire Wire Line
+	1850 3125 1250 3125
+Text Label 1250 2925 0    60   ~ 0
+Motor_3A
+Text Label 1250 3025 0    60   ~ 0
+Motor_3B
+Text Label 1250 3125 0    60   ~ 0
+Motor_3C
+Wire Wire Line
+	1850 3525 1250 3525
+Wire Wire Line
+	1850 3625 1250 3625
+Wire Wire Line
+	1850 3725 1250 3725
+Text Label 1250 3525 0    60   ~ 0
+Motor_4A
+Text Label 1250 3625 0    60   ~ 0
+Motor_4B
+Text Label 1250 3725 0    60   ~ 0
+Motor_4C
+$Comp
+L CONN_01X02 P6
+U 1 1 581D8C43
+P 3375 1775
+F 0 "P6" H 3375 1925 50  0000 C CNN
+F 1 "CONN_01X02" V 3475 1775 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight" H 3375 1775 50  0001 C CNN
+F 3 "" H 3375 1775 50  0000 C CNN
+	1    3375 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 1725 2600 1725
+Wire Wire Line
+	3175 1825 3075 1825
+Wire Wire Line
+	3075 1825 3075 2350
+Wire Wire Line
+	3075 2350 3175 2350
+Wire Wire Line
+	3175 2450 2600 2450
+Text Label 2600 1725 0    60   ~ 0
+LED+
+Text Label 2600 2450 0    60   ~ 0
+LED-
+$Comp
+L CONN_01X04 P8
+U 1 1 581D94DA
+P 3375 3150
+F 0 "P8" H 3375 3400 50  0000 C CNN
+F 1 "CONN_01X04" V 3475 3150 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 3375 3150 50  0001 C CNN
+F 3 "" H 3375 3150 50  0000 C CNN
+	1    3375 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 3000 2600 3000
+$Comp
+L GND #PWR05
+U 1 1 581D955A
+P 2600 3000
+F 0 "#PWR05" H 2600 2750 50  0001 C CNN
+F 1 "GND" H 2600 2850 50  0000 C CNN
+F 2 "" H 2600 3000 50  0000 C CNN
+F 3 "" H 2600 3000 50  0000 C CNN
+	1    2600 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3175 3300 2600 3300
+Wire Wire Line
+	3175 3100 2600 3100
+Wire Wire Line
+	3175 3200 2600 3200
+Text Label 2600 3300 0    60   ~ 0
+3V3
+Text Label 2600 3100 0    60   ~ 0
+SCL
+Text Label 2600 3200 0    60   ~ 0
+SDA
+$Comp
+L CONN_02X08 P9
+U 1 1 581D9B11
+P 5125 1500
+F 0 "P9" H 5125 1950 50  0000 C CNN
+F 1 "CONN_02X08" V 5125 1500 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x08" H 5125 300 50  0001 C CNN
+F 3 "" H 5125 300 50  0000 C CNN
+	1    5125 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 1150 4375 1150
+Text Label 5450 1150 0    60   ~ 0
+Motor_1A
+Text Label 5450 1250 0    60   ~ 0
+Motor_1B
+Wire Wire Line
+	4875 1250 4375 1250
+Wire Wire Line
+	4875 1350 4375 1350
+Text Label 5450 1350 0    60   ~ 0
+Motor_1C
+Wire Wire Line
+	4875 1450 4375 1450
+Wire Wire Line
+	4875 1550 4375 1550
+Text Label 4375 1450 0    60   ~ 0
+LED+
+Text Label 4375 1550 0    60   ~ 0
+LED-
+Wire Wire Line
+	4875 1650 4375 1650
+Wire Wire Line
+	4875 1750 4375 1750
+Wire Wire Line
+	4875 1850 4375 1850
+Wire Wire Line
+	5375 1150 5850 1150
+Wire Wire Line
+	5375 1250 5850 1250
+Wire Wire Line
+	5375 1350 5850 1350
+Text Label 4375 1150 0    60   ~ 0
+Motor_3A
+Text Label 4375 1250 0    60   ~ 0
+Motor_3B
+Text Label 4375 1350 0    60   ~ 0
+Motor_3C
+Text Label 4375 1650 0    60   ~ 0
+Motor_4A
+Text Label 4375 1750 0    60   ~ 0
+Motor_4B
+Text Label 4375 1850 0    60   ~ 0
+Motor_4C
+Wire Wire Line
+	5375 1450 5850 1450
+Wire Wire Line
+	5375 1550 5850 1550
+Wire Wire Line
+	5375 1650 5850 1650
+Wire Wire Line
+	5375 1750 5850 1750
+Wire Wire Line
+	5375 1850 5850 1850
+Text Label 5700 1450 0    60   ~ 0
+SCL
+Text Label 5700 1550 0    60   ~ 0
+SDA
+Text Label 5450 1650 0    60   ~ 0
+Motor_2A
+Text Label 5450 1750 0    60   ~ 0
+Motor_2B
+Text Label 5450 1850 0    60   ~ 0
+Motor_2C
+$Comp
+L CONN_01X03 P3
+U 1 1 581DF7FE
+P 2050 2425
+F 0 "P3" H 2050 2625 50  0000 C CNN
+F 1 "CONN_01X03" V 2150 2425 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 2050 2425 50  0001 C CNN
+F 3 "" H 2050 2425 50  0000 C CNN
+	1    2050 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P4
+U 1 1 581DF84E
+P 2050 3025
+F 0 "P4" H 2050 3225 50  0000 C CNN
+F 1 "CONN_01X03" V 2150 3025 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 2050 3025 50  0001 C CNN
+F 3 "" H 2050 3025 50  0000 C CNN
+	1    2050 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P5
+U 1 1 581DF8A7
+P 2050 3625
+F 0 "P5" H 2050 3825 50  0000 C CNN
+F 1 "CONN_01X03" V 2150 3625 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 2050 3625 50  0001 C CNN
+F 3 "" H 2050 3625 50  0000 C CNN
+	1    2050 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P7
+U 1 1 581E0276
+P 3375 2400
+F 0 "P7" H 3375 2550 50  0000 C CNN
+F 1 "CONN_01X02" V 3475 2400 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight" H 3375 2400 50  0001 C CNN
+F 3 "" H 3375 2400 50  0000 C CNN
+	1    3375 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 P10
+U 1 1 581E09E5
+P 5125 2575
+F 0 "P10" H 5125 2825 50  0000 C CNN
+F 1 "CONN_02X04" H 5125 2325 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x04" H 5125 1375 50  0001 C CNN
+F 3 "" H 5125 1375 50  0000 C CNN
+	1    5125 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 2425 4400 2425
+Text Label 4400 2425 0    60   ~ 0
+V_BAT+
+Wire Wire Line
+	4875 2525 4725 2525
+Wire Wire Line
+	4725 2525 4725 2425
+Connection ~ 4725 2425
+Wire Wire Line
+	5375 2425 5850 2425
+Wire Wire Line
+	5375 2525 5550 2525
+Wire Wire Line
+	5550 2525 5550 2425
+Connection ~ 5550 2425
+Text Label 5550 2425 0    60   ~ 0
+V_BAT+
+$Comp
+L GND #PWR06
+U 1 1 581E142B
+P 4475 2625
+F 0 "#PWR06" H 4475 2375 50  0001 C CNN
+F 1 "GND" H 4475 2475 50  0000 C CNN
+F 2 "" H 4475 2625 50  0000 C CNN
+F 3 "" H 4475 2625 50  0000 C CNN
+	1    4475 2625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4475 2625 4875 2625
+Wire Wire Line
+	4875 2725 4725 2725
+Wire Wire Line
+	4725 2725 4725 2625
+Connection ~ 4725 2625
+$Comp
+L GND #PWR07
+U 1 1 581E1516
+P 5750 2625
+F 0 "#PWR07" H 5750 2375 50  0001 C CNN
+F 1 "GND" H 5750 2475 50  0000 C CNN
+F 2 "" H 5750 2625 50  0000 C CNN
+F 3 "" H 5750 2625 50  0000 C CNN
+	1    5750 2625
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5375 2625 5750 2625
+Wire Wire Line
+	5375 2725 5550 2725
+Wire Wire Line
+	5550 2725 5550 2625
+Connection ~ 5550 2625
+$EndSCHEMATC

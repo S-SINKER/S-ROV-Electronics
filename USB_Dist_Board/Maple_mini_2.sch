@@ -448,9 +448,9 @@ Text HLabel 5900 5600 3    60   Input ~ 0
 GND
 Text HLabel 10250 3575 0    60   Input ~ 0
 GND
-Text HLabel 2225 4150 0    60   Input ~ 0
+Text HLabel 2225 4550 0    60   Input ~ 0
 I2C_SCL
-Text HLabel 2225 4250 0    60   Input ~ 0
+Text HLabel 2225 4650 0    60   Input ~ 0
 I2C_SDA
 $Comp
 L Q_PMOS_GSD Q3
@@ -547,10 +547,10 @@ Wire Wire Line
 Wire Wire Line
 	10600 4750 10975 4750
 Wire Wire Line
-	2900 4150 2225 4150
-Wire Wire Line
-	2900 4250 2225 4250
-Wire Wire Line
 	8975 6025 9500 6025
 Connection ~ 9500 6025
+Wire Wire Line
+	2900 4550 2225 4550
+Wire Wire Line
+	2900 4650 2225 4650
 $EndSCHEMATC
