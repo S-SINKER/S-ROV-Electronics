@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:custom_lib
+LIBS:Main_Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -420,7 +421,7 @@ U 1 1 58292448
 P 3875 2775
 F 0 "P5" H 3875 3325 50  0000 C CNN
 F 1 "CONN_02X12" V 3875 2775 50  0000 C CNN
-F 2 "" H 3875 1575 50  0000 C CNN
+F 2 "KiCad_Footprint:Socket_Strip_Angled_2x12" H 3875 1575 50  0001 C CNN
 F 3 "" H 3875 1575 50  0000 C CNN
 	1    3875 2775
 	1    0    0    -1  

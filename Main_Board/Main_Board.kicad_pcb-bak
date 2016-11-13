@@ -230,7 +230,7 @@
   )
 
   (module Capacitors_SMD:c_elec_6.3x4.5 (layer F.Cu) (tedit 57FA4558) (tstamp 58288153)
-    (at 58 93.5 270)
+    (at 58 94 270)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x4.5")
     (path /582859A4)
     (attr smd)
@@ -278,7 +278,7 @@
   )
 
   (module Capacitors_SMD:c_elec_6.3x4.5 (layer F.Cu) (tedit 57FA4558) (tstamp 5828816F)
-    (at 58 106 270)
+    (at 58 107 270)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x4.5")
     (path /58285CF8)
     (attr smd)
@@ -326,7 +326,7 @@
   )
 
   (module Capacitors_SMD:c_elec_6.3x4.5 (layer F.Cu) (tedit 57FA4558) (tstamp 5828818B)
-    (at 58 118.5 270)
+    (at 58 120 270)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x4.5")
     (path /58285D6D)
     (attr smd)
@@ -556,7 +556,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_2x04 (layer F.Cu) (tedit 0) (tstamp 5828820D)
-    (at 58 127)
+    (at 61 129)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /58293B03)
@@ -862,7 +862,7 @@
   )
 
   (module KiCad_Footprint:DYS_Mini_ESC (layer F.Cu) (tedit 581FD2C9) (tstamp 582882C3)
-    (at 77 106 270)
+    (at 77 107 270)
     (descr "Through hole pin header, 1x06, 2.00mm pitch, single row")
     (tags "pin header single row")
     (path /58285421)
@@ -919,7 +919,7 @@
   )
 
   (module KiCad_Footprint:DYS_Mini_ESC (layer F.Cu) (tedit 581FD2C9) (tstamp 582882DC)
-    (at 77 93.5 270)
+    (at 77 94 270)
     (descr "Through hole pin header, 1x06, 2.00mm pitch, single row")
     (tags "pin header single row")
     (path /58285CE0)
@@ -976,7 +976,7 @@
   )
 
   (module KiCad_Footprint:DYS_Mini_ESC (layer F.Cu) (tedit 581FD2C9) (tstamp 582882F5)
-    (at 77 118.5 270)
+    (at 77 120 270)
     (descr "Through hole pin header, 1x06, 2.00mm pitch, single row")
     (tags "pin header single row")
     (path /58285D55)
