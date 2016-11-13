@@ -1,4 +1,4 @@
-update=2016-10-15 오후 10:56:51
+update=2016-11-13 오후 8:18:10
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -58,4 +56,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=KicadLibs/custom_lib
+[general]
+version=1
