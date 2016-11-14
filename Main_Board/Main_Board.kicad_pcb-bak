@@ -3,9 +3,9 @@
   (general
     (links 90)
     (no_connects 90)
-    (area 50.424999 64.924999 149.575001 135.075001)
+    (area 50.399999 61.345 154.685001 135.975)
     (thickness 1.6)
-    (drawings 10)
+    (drawings 13)
     (tracks 0)
     (zones 0)
     (modules 20)
@@ -230,7 +230,7 @@
   )
 
   (module Capacitors_SMD:c_elec_6.3x4.5 (layer F.Cu) (tedit 57FA4558) (tstamp 58288153)
-    (at 58 93.5 270)
+    (at 58 94 270)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x4.5")
     (path /582859A4)
     (attr smd)
@@ -326,7 +326,7 @@
   )
 
   (module Capacitors_SMD:c_elec_6.3x4.5 (layer F.Cu) (tedit 57FA4558) (tstamp 5828818B)
-    (at 58 118.5 270)
+    (at 58 118 270)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x4.5")
     (path /58285D6D)
     (attr smd)
@@ -374,7 +374,7 @@
   )
 
   (module Capacitors_SMD:c_elec_6.3x4.5 (layer F.Cu) (tedit 57FA4558) (tstamp 582881A7)
-    (at 58 81 270)
+    (at 58 82 270)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x4.5")
     (path /58285DF2)
     (attr smd)
@@ -1183,6 +1183,9 @@
     )
   )
 
+  (gr_line (start 50.5 110) (end 52 110) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 52 90) (end 52 110) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 50.5 90) (end 52 90) (layer Edge.Cuts) (width 0.15))
   (gr_circle (center 142.57 75.5) (end 142.57 77) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 50.5 75.27) (end 65 75.27) (layer B.Paste) (width 0.2))
   (gr_line (start 50.5 124.73) (end 65 124.73) (angle 90) (layer B.Paste) (width 0.2))
