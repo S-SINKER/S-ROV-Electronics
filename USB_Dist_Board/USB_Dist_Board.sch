@@ -60,18 +60,17 @@ F8 "PWM3" I L 9000 2125 60
 F9 "PWM4" I L 9000 2275 60 
 F10 "PWM5" I L 9000 2425 60 
 F11 "PWM6" I L 9000 2575 60 
-F12 "ADC1" I L 9000 2725 60 
-F13 "GND" I L 9000 750 60 
+F12 "GND" I L 9000 750 60 
 $EndSheet
 $Comp
-L CONN_02X06 P1
+L CONN_02X04 P1
 U 1 1 57FDC17C
-P 1825 3125
-F 0 "P1" H 1825 3525 50  0000 C CNN
-F 1 "CONN_02X06" V 1825 3125 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x06" H 1825 1925 50  0001 C CNN
-F 3 "" H 1825 1925 50  0000 C CNN
-	1    1825 3125
+P 1825 3225
+F 0 "P1" H 1825 3625 50  0000 C CNN
+F 1 "CONN_02X04" V 1825 3225 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x04" H 1825 2025 50  0001 C CNN
+F 3 "" H 1825 2025 50  0000 C CNN
+	1    1825 3225
 	1    0    0    -1  
 $EndComp
 Text Label 3550 2175 0    60   ~ 0
@@ -106,10 +105,6 @@ Text Label 8400 2425 0    60   ~ 0
 PWM5
 Text Label 8400 2575 0    60   ~ 0
 PWM6
-Text Label 1075 2875 0    60   ~ 0
-VCC_Bat
-Text Label 2325 2775 0    60   ~ 0
-VCC_Bat
 $Comp
 L Raspberry_Front U1
 U 1 1 57FE37FE
@@ -123,43 +118,6 @@ F 5 "WM3983CT-ND" H 2350 1625 60  0001 C CNN "Part #"
 	1    2350 1625
 	1    0    0    -1  
 $EndComp
-$Comp
-L C C1
-U 1 1 57FE7539
-P 3075 2975
-F 0 "C1" H 3100 3075 50  0000 L CNN
-F 1 "C" H 3100 2875 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3113 2825 50  0001 C CNN
-F 3 "" H 3075 2975 50  0000 C CNN
-	1    3075 2975
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R1
-U 1 1 57FE7818
-P 3425 3025
-F 0 "R1" V 3505 3025 50  0000 C CNN
-F 1 "3.3k" V 3425 3025 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3355 3025 50  0001 C CNN
-F 3 "" H 3425 3025 50  0000 C CNN
-	1    3425 3025
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 57FE7A22
-P 3425 3425
-F 0 "R2" V 3505 3425 50  0000 C CNN
-F 1 "16.7k" V 3425 3425 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3355 3425 50  0001 C CNN
-F 3 "" H 3425 3425 50  0000 C CNN
-	1    3425 3425
-	1    0    0    -1  
-$EndComp
-Text Label 3875 3225 0    60   ~ 0
-ADC1
-Text Label 8400 2725 0    60   ~ 0
-ADC1
 Text Label 3350 1875 0    60   ~ 0
 USB_D_DP
 Text Label 3350 2025 0    60   ~ 0
@@ -200,8 +158,6 @@ Text Label 8300 4175 0    60   ~ 0
 VCC_B
 Text Label 8300 3800 0    60   ~ 0
 USB_B_GND
-Text Label 3425 4150 1    60   ~ 0
-USB_D_GND
 Text Label 8300 6050 0    60   ~ 0
 SCL
 Text Label 8300 6200 0    60   ~ 0
@@ -210,75 +166,51 @@ Text Label 8300 3975 0    60   ~ 0
 3V3_B
 Text Label 8300 925  0    60   ~ 0
 3V3_A
-Text Label 950  4425 0    60   ~ 0
-3V3_B
-$Comp
-L R R23
-U 1 1 5801DFF1
-P 1550 4725
-F 0 "R23" V 1630 4725 50  0000 C CNN
-F 1 "R" V 1550 4725 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1480 4725 50  0001 C CNN
-F 3 "" H 1550 4725 50  0000 C CNN
-	1    1550 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R24
-U 1 1 5801E469
-P 1775 4725
-F 0 "R24" V 1855 4725 50  0000 C CNN
-F 1 "R" V 1775 4725 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1705 4725 50  0001 C CNN
-F 3 "" H 1775 4725 50  0000 C CNN
-	1    1775 4725
-	1    0    0    -1  
-$EndComp
-Text Label 950  5100 0    60   ~ 0
+Text Label 2600 4000 0    60   ~ 0
 SCL
-Text Label 950  4975 0    60   ~ 0
+Text Label 2600 4100 0    60   ~ 0
 SDA
 $Comp
 L CONN_01X04 P5
 U 1 1 58025F22
-P 1125 5725
-F 0 "P5" H 1125 5975 50  0000 C CNN
-F 1 "CONN_01X04" V 1225 5725 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 1125 5725 50  0001 C CNN
-F 3 "" H 1125 5725 50  0000 C CNN
-F 4 "DigiKey" H 1125 5725 60  0001 C CNN "Vender"
-F 5 "455-1706-ND" H 1125 5725 60  0001 C CNN "Part #"
-	1    1125 5725
+P 1100 6525
+F 0 "P5" H 1100 6775 50  0000 C CNN
+F 1 "CONN_01X04" V 1200 6525 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 1100 6525 50  0001 C CNN
+F 3 "" H 1100 6525 50  0000 C CNN
+F 4 "DigiKey" H 1100 6525 60  0001 C CNN "Vender"
+F 5 "455-1706-ND" H 1100 6525 60  0001 C CNN "Part #"
+	1    1100 6525
 	-1   0    0    1   
 $EndComp
-Text Label 1475 5875 0    60   ~ 0
+Text Label 1450 6675 0    60   ~ 0
 USB_A_GND
-Text Label 1550 5775 0    60   ~ 0
+Text Label 1525 6575 0    60   ~ 0
 USB_A_DP
-Text Label 1550 5675 0    60   ~ 0
+Text Label 1525 6475 0    60   ~ 0
 USB_A_DM
-Text Label 1725 5575 0    60   ~ 0
+Text Label 1700 6375 0    60   ~ 0
 VCC_A
 $Comp
 L CONN_01X04 P6
 U 1 1 5802E80E
-P 2350 5725
-F 0 "P6" H 2350 5975 50  0000 C CNN
-F 1 "CONN_01X04" V 2450 5725 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 2350 5725 50  0001 C CNN
-F 3 "" H 2350 5725 50  0000 C CNN
-F 4 "DigiKey" H 2350 5725 60  0001 C CNN "Vender"
-F 5 "455-1706-ND" H 2350 5725 60  0001 C CNN "Part #"
-	1    2350 5725
+P 2325 6525
+F 0 "P6" H 2325 6775 50  0000 C CNN
+F 1 "CONN_01X04" V 2425 6525 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 2325 6525 50  0001 C CNN
+F 3 "" H 2325 6525 50  0000 C CNN
+F 4 "DigiKey" H 2325 6525 60  0001 C CNN "Vender"
+F 5 "455-1706-ND" H 2325 6525 60  0001 C CNN "Part #"
+	1    2325 6525
 	-1   0    0    1   
 $EndComp
-Text Label 2700 5875 0    60   ~ 0
+Text Label 2675 6675 0    60   ~ 0
 USB_C_GND
-Text Label 2775 5775 0    60   ~ 0
+Text Label 2750 6575 0    60   ~ 0
 USB_C_DP
-Text Label 2775 5675 0    60   ~ 0
+Text Label 2750 6475 0    60   ~ 0
 USB_C_DM
-Text Label 2950 5575 0    60   ~ 0
+Text Label 2925 6375 0    60   ~ 0
 VCC_C
 $Comp
 L APE8865N-12-HF-3 U5
@@ -374,11 +306,78 @@ F5 "5V" I L 9000 4175 60
 F6 "GND" I L 9000 3800 60 
 F7 "I2C_SCL" I L 9000 6050 60 
 F8 "I2C_SDA" I L 9000 6200 60 
+F9 "BOOT" I L 9000 5575 60 
+F10 "ADC1" I L 9000 5225 60 
+F11 "PWR_SW" I L 9000 4900 60 
 $EndSheet
-Text Label 675  3025 0    60   ~ 0
+Text Label 1075 3075 0    60   ~ 0
 USB_D_GND
-Text Label 2450 3025 0    60   ~ 0
+Text Label 2225 3075 0    60   ~ 0
 USB_D_GND
+$Comp
+L CONN_02X04 P7
+U 1 1 580B3562
+P 1825 4050
+F 0 "P7" H 1825 4550 50  0000 C CNN
+F 1 "CONN_02X04" V 1825 4050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x04" H 1825 2850 50  0001 C CNN
+F 3 "" H 1825 2850 50  0000 C CNN
+	1    1825 4050
+	-1   0    0    1   
+$EndComp
+Text Label 625  4000 0    60   ~ 0
+PWR_SW
+Text Label 8300 5575 0    60   ~ 0
+BOOT
+Text Label 8300 5225 0    60   ~ 0
+ADC1
+Text Label 1050 4200 0    60   ~ 0
+USB_B_GND
+Text Label 2550 4575 0    60   ~ 0
+ADC1
+Text Label 1050 4100 0    60   ~ 0
+BOOT
+Text Label 1050 3900 0    60   ~ 0
+3V3_B
+Text Label 8300 4900 0    60   ~ 0
+PWR_SW
+$Comp
+L R R1
+U 1 1 582B2ECF
+P 2275 4350
+F 0 "R1" V 2355 4350 50  0000 C CNN
+F 1 "R" V 2275 4350 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 2205 4350 50  0001 C CNN
+F 3 "" H 2275 4350 50  0000 C CNN
+	1    2275 4350
+	1    0    0    -1  
+$EndComp
+Text Label 2275 5025 3    60   ~ 0
+USB_B_GND
+$Comp
+L R R2
+U 1 1 582B441F
+P 2275 4800
+F 0 "R2" V 2355 4800 50  0000 C CNN
+F 1 "R" V 2275 4800 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 2205 4800 50  0001 C CNN
+F 3 "" H 2275 4800 50  0000 C CNN
+	1    2275 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 582B732A
+P 950 4350
+F 0 "R6" V 1030 4350 50  0000 C CNN
+F 1 "R" V 950 4350 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 880 4350 50  0001 C CNN
+F 3 "" H 950 4350 50  0000 C CNN
+	1    950  4350
+	1    0    0    -1  
+$EndComp
+Text Label 950  5100 1    60   ~ 0
+USB_B_GND
 Wire Wire Line
 	8300 1375 9000 1375
 Wire Wire Line
@@ -420,43 +419,11 @@ Wire Wire Line
 Wire Wire Line
 	9000 2575 8400 2575
 Wire Wire Line
-	1075 2875 1575 2875
-Wire Wire Line
-	2075 2875 2275 2875
-Wire Wire Line
-	2275 2875 2275 2775
-Wire Wire Line
 	3200 1725 3800 1725
 Wire Wire Line
-	1275 3075 1575 3075
+	1075 3075 1575 3075
 Wire Wire Line
-	1275 2975 1275 3075
-Wire Wire Line
-	1575 2975 1275 2975
-Connection ~ 1275 3025
-Wire Wire Line
-	2425 3075 2075 3075
-Wire Wire Line
-	2425 2975 2425 3075
-Wire Wire Line
-	2425 2975 2075 2975
-Connection ~ 2425 3025
-Wire Wire Line
-	3075 2775 3075 2825
-Connection ~ 3075 2775
-Wire Wire Line
-	3075 3125 3075 3825
-Wire Wire Line
-	3425 2775 3425 2875
-Wire Wire Line
-	3425 3175 3425 3275
-Wire Wire Line
-	3425 3575 3425 4150
-Wire Wire Line
-	3425 3225 4075 3225
-Connection ~ 3425 3225
-Wire Wire Line
-	9000 2725 8400 2725
+	2075 3075 2725 3075
 Wire Wire Line
 	3200 1875 3800 1875
 Wire Wire Line
@@ -496,45 +463,21 @@ Wire Wire Line
 Wire Wire Line
 	9000 925  8300 925 
 Wire Wire Line
-	1550 4575 1550 4425
-Connection ~ 1550 4425
+	1300 6675 1950 6675
 Wire Wire Line
-	1775 4575 1775 4425
-Connection ~ 1775 4425
+	1300 6575 1950 6575
 Wire Wire Line
-	3575 4525 2100 4525
+	1300 6475 1950 6475
 Wire Wire Line
-	2100 4525 2100 4975
+	1300 6375 1950 6375
 Wire Wire Line
-	2100 4975 950  4975
+	2525 6675 3175 6675
 Wire Wire Line
-	3575 4625 2225 4625
+	2525 6575 3175 6575
 Wire Wire Line
-	2225 4625 2225 5100
+	2525 6475 3175 6475
 Wire Wire Line
-	2225 5100 950  5100
-Wire Wire Line
-	1550 4875 1550 4975
-Connection ~ 1550 4975
-Wire Wire Line
-	1775 4875 1775 5100
-Connection ~ 1775 5100
-Wire Wire Line
-	1325 5875 1975 5875
-Wire Wire Line
-	1325 5775 1975 5775
-Wire Wire Line
-	1325 5675 1975 5675
-Wire Wire Line
-	1325 5575 1975 5575
-Wire Wire Line
-	2550 5875 3200 5875
-Wire Wire Line
-	2550 5775 3200 5775
-Wire Wire Line
-	2550 5675 3200 5675
-Wire Wire Line
-	2550 5575 3200 5575
+	2525 6375 3175 6375
 Wire Wire Line
 	5375 1000 4650 1000
 Connection ~ 5000 1000
@@ -586,28 +529,41 @@ Wire Wire Line
 	3275 2325 3275 1725
 Connection ~ 3275 1725
 Wire Wire Line
-	675  3025 1275 3025
-Wire Wire Line
-	2425 3025 2950 3025
-Text Label 3075 3800 1    60   ~ 0
-USB_D_GND
-Wire Wire Line
-	2275 2775 3425 2775
-Text Notes 3625 3525 0    60   ~ 0
-20V full sacle to 3.3V ADC
-Wire Wire Line
 	5000 1575 6475 1575
-$Comp
-L CONN_02X06 P7
-U 1 1 580B3562
-P 3825 4475
-F 0 "P7" H 3825 4975 50  0000 C CNN
-F 1 "CONN_02X06" V 3825 4475 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x06" H 3825 3275 50  0001 C CNN
-F 3 "" H 3825 3275 50  0000 C CNN
-	1    3825 4475
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	950  4425 2150 4425
+	1050 3900 1575 3900
+Wire Wire Line
+	625  4000 1575 4000
+Wire Wire Line
+	9000 5575 8300 5575
+Wire Wire Line
+	9000 5225 8300 5225
+Wire Wire Line
+	2075 4000 2750 4000
+Wire Wire Line
+	2075 4100 2750 4100
+Wire Wire Line
+	2075 3900 2750 3900
+Wire Wire Line
+	1575 4100 1050 4100
+Wire Wire Line
+	1575 4200 1050 4200
+Wire Wire Line
+	9000 4900 8300 4900
+Wire Wire Line
+	2275 4500 2275 4650
+Wire Wire Line
+	2275 4950 2275 5525
+Wire Wire Line
+	2275 4575 2750 4575
+Connection ~ 2275 4575
+Wire Wire Line
+	2075 4200 2275 4200
+Wire Wire Line
+	950  4000 950  4200
+Connection ~ 950  4000
+Wire Wire Line
+	950  4500 950  5100
+Text Label 2250 3900 0    60   ~ 0
+USB_B_GND
 $EndSCHEMATC

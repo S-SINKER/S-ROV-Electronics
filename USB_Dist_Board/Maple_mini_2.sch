@@ -129,8 +129,6 @@ OSC_OUT
 Text Label 1550 3250 0    60   ~ 0
 OSC_IN
 NoConn ~ 2900 2650
-Text HLabel 1400 2450 0    60   Input ~ 0
-3V3
 $Comp
 L R R8
 U 1 1 57F86EBF
@@ -139,7 +137,7 @@ AR Path="/57F84F92/57F86EBF" Ref="R8"  Part="1"
 AR Path="/57FF4952/57F86EBF" Ref="R18"  Part="1" 
 F 0 "R18" V 2555 1825 50  0000 C CNN
 F 1 "10k" V 2475 1825 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2405 1825 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" V 2405 1825 50  0001 C CNN
 F 3 "" H 2475 1825 50  0000 C CNN
 	1    2475 1825
 	1    0    0    -1  
@@ -190,7 +188,7 @@ AR Path="/57F84F92/57FFEDEC" Ref="R4"  Part="1"
 AR Path="/57FF4952/57FFEDEC" Ref="R14"  Part="1" 
 F 0 "R14" V 1780 4400 50  0000 C CNN
 F 1 "330" V 1700 4400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1630 4400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" V 1630 4400 50  0001 C CNN
 F 3 "" H 1700 4400 50  0000 C CNN
 	1    1700 4400
 	1    0    0    -1  
@@ -209,7 +207,7 @@ AR Path="/57F84F92/57FFEDF0" Ref="R11"  Part="1"
 AR Path="/57FF4952/57FFEDF0" Ref="R21"  Part="1" 
 F 0 "R21" V 10375 4650 50  0000 C CNN
 F 1 "22" V 10450 4650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 10380 4650 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" V 10380 4650 50  0001 C CNN
 F 3 "" H 10450 4650 50  0000 C CNN
 	1    10450 4650
 	0    1    1    0   
@@ -218,23 +216,6 @@ Text HLabel 10975 4650 2    60   Input ~ 0
 D-
 Text HLabel 10975 4750 2    60   Input ~ 0
 D+
-$Comp
-L CONN_01X03 P2
-U 1 1 57FFEDF1
-P 10825 3675
-AR Path="/57F84F92/57FFEDF1" Ref="P2"  Part="1" 
-AR Path="/57FF4952/57FFEDF1" Ref="P3"  Part="1" 
-F 0 "P3" H 10825 3875 50  0000 C CNN
-F 1 "CONN_01X03" V 10925 3675 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 10825 3675 50  0001 C CNN
-F 3 "" H 10825 3675 50  0000 C CNN
-	1    10825 3675
-	1    0    0    -1  
-$EndComp
-Text Label 10350 3675 0    60   ~ 0
-TX1
-Text Label 10350 3775 0    60   ~ 0
-RX1
 Text Label 9100 4450 0    60   ~ 0
 TX1
 Text Label 9100 4550 0    60   ~ 0
@@ -247,7 +228,7 @@ AR Path="/57F84F92/57FFEDF2" Ref="R12"  Part="1"
 AR Path="/57FF4952/57FFEDF2" Ref="R22"  Part="1" 
 F 0 "R22" V 10550 4750 50  0000 C CNN
 F 1 "22" V 10450 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 10380 4750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" V 10380 4750 50  0001 C CNN
 F 3 "" H 10450 4750 50  0000 C CNN
 	1    10450 4750
 	0    1    1    0   
@@ -260,23 +241,10 @@ AR Path="/57F84F92/57F9AFF7" Ref="R9"  Part="1"
 AR Path="/57FF4952/57F9AFF7" Ref="R19"  Part="1" 
 F 0 "R19" V 2755 1825 50  0000 C CNN
 F 1 "10k" V 2675 1825 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2605 1825 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" V 2605 1825 50  0001 C CNN
 F 3 "" H 2675 1825 50  0000 C CNN
 	1    2675 1825
 	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 SW2
-U 1 1 57FFEDF4
-P 1975 2650
-AR Path="/57F84F92/57FFEDF4" Ref="SW2"  Part="1" 
-AR Path="/57FF4952/57FFEDF4" Ref="SW4"  Part="1" 
-F 0 "SW4" V 1975 2850 50  0000 C CNN
-F 1 "BOOT" V 1975 2425 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 2000 2500 50  0001 C CNN
-F 3 "" H 1975 2650 50  0000 C CNN
-	1    1975 2650
-	0    1    1    0   
 $EndComp
 $Comp
 L C C5
@@ -319,6 +287,85 @@ F 3 "" H 6050 1125 50  0000 C CNN
 $EndComp
 Text HLabel 6050 1600 3    60   Input ~ 0
 GND
+Text HLabel 1400 2250 0    60   Input ~ 0
+GND
+Text HLabel 2475 1625 1    60   Input ~ 0
+GND
+Text HLabel 625  3050 0    60   Input ~ 0
+GND
+Text HLabel 2150 3750 0    60   Input ~ 0
+GND
+Text HLabel 1700 4625 3    60   Input ~ 0
+GND
+Text HLabel 5900 5600 3    60   Input ~ 0
+GND
+Text HLabel 2225 4150 0    60   Input ~ 0
+I2C_SCL
+Text HLabel 2225 4250 0    60   Input ~ 0
+I2C_SDA
+$Comp
+L Q_PMOS_GSD Q3
+U 1 1 57FFA5F0
+P 9400 5425
+F 0 "Q3" H 9700 5475 50  0000 R CNN
+F 1 "BSS84" H 9850 5350 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9600 5525 50  0001 C CNN
+F 3 "" H 9400 5425 50  0000 C CNN
+F 4 "DigiKey" H 9400 5425 60  0001 C CNN "Vender"
+F 5 "BSS84TR-ND" H 9400 5425 60  0001 C CNN "Part #"
+	1    9400 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R15
+U 1 1 57FFA8AB
+P 9500 4950
+F 0 "R15" V 9580 4950 50  0000 C CNN
+F 1 "1.5k" V 9500 4950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 9430 4950 50  0001 C CNN
+F 3 "" H 9500 4950 50  0000 C CNN
+	1    9500 4950
+	1    0    0    -1  
+$EndComp
+Text HLabel 9500 6125 3    60   Input ~ 0
+3V3
+Text Label 8625 5425 0    60   ~ 0
+DISC
+$Comp
+L R R13
+U 1 1 57FFB2A9
+P 8975 5700
+F 0 "R13" V 9055 5700 50  0000 C CNN
+F 1 "10k" V 8975 5700 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 8905 5700 50  0001 C CNN
+F 3 "" H 8975 5700 50  0000 C CNN
+	1    8975 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C20
+U 1 1 5800D9AB
+P 9975 5025
+F 0 "C20" H 10000 5125 50  0000 L CNN
+F 1 "47pF" H 10000 4925 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10013 4875 50  0001 C CNN
+F 3 "" H 9975 5025 50  0000 C CNN
+	1    9975 5025
+	1    0    0    -1  
+$EndComp
+Text HLabel 10225 5350 3    60   Input ~ 0
+GND
+$Comp
+L C C21
+U 1 1 5800ECCA
+P 10225 5025
+F 0 "C21" H 10250 5125 50  0000 L CNN
+F 1 "47pF" H 10250 4925 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10263 4875 50  0001 C CNN
+F 3 "" H 10225 5025 50  0000 C CNN
+	1    10225 5025
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5900 1600 5900 1850
 Wire Wire Line
@@ -389,8 +436,6 @@ Wire Wire Line
 Connection ~ 1225 2850
 Connection ~ 1225 3250
 Wire Wire Line
-	1400 2450 1925 2450
-Wire Wire Line
 	2025 2450 2900 2450
 Wire Wire Line
 	2475 1975 2475 2450
@@ -423,99 +468,25 @@ Wire Wire Line
 Wire Wire Line
 	8700 4750 10300 4750
 Wire Wire Line
-	10250 3575 10625 3575
-Wire Wire Line
-	10625 3675 10100 3675
-Wire Wire Line
-	10625 3775 10100 3775
-Wire Wire Line
 	8700 4450 9250 4450
 Wire Wire Line
 	8700 4550 9250 4550
 Wire Wire Line
 	6050 1275 6050 1600
-Text HLabel 1400 2250 0    60   Input ~ 0
-GND
-Text HLabel 2475 1625 1    60   Input ~ 0
-GND
-Text HLabel 625  3050 0    60   Input ~ 0
-GND
-Text HLabel 2150 3750 0    60   Input ~ 0
-GND
-Text HLabel 1700 4625 3    60   Input ~ 0
-GND
-Text HLabel 5900 5600 3    60   Input ~ 0
-GND
-Text HLabel 10250 3575 0    60   Input ~ 0
-GND
-Text HLabel 2225 4550 0    60   Input ~ 0
-I2C_SCL
-Text HLabel 2225 4650 0    60   Input ~ 0
-I2C_SDA
-$Comp
-L Q_PMOS_GSD Q3
-U 1 1 57FFA5F0
-P 9400 5425
-F 0 "Q3" H 9700 5475 50  0000 R CNN
-F 1 "BSS84" H 9850 5350 50  0000 R CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 9600 5525 50  0001 C CNN
-F 3 "" H 9400 5425 50  0000 C CNN
-F 4 "DigiKey" H 9400 5425 60  0001 C CNN "Vender"
-F 5 "BSS84TR-ND" H 9400 5425 60  0001 C CNN "Part #"
-	1    9400 5425
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R15
-U 1 1 57FFA8AB
-P 9500 4950
-F 0 "R15" V 9580 4950 50  0000 C CNN
-F 1 "1.5k" V 9500 4950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 9430 4950 50  0001 C CNN
-F 3 "" H 9500 4950 50  0000 C CNN
-	1    9500 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9500 4750 9500 4800
 Connection ~ 9500 4750
 Wire Wire Line
 	9500 5100 9500 5225
-Text HLabel 9500 6125 3    60   Input ~ 0
-3V3
 Wire Wire Line
 	9500 5625 9500 6125
 Wire Wire Line
 	9200 5425 8575 5425
-Text Label 8625 5425 0    60   ~ 0
-DISC
-$Comp
-L R R13
-U 1 1 57FFB2A9
-P 8975 5700
-F 0 "R13" V 9055 5700 50  0000 C CNN
-F 1 "10k" V 8975 5700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8905 5700 50  0001 C CNN
-F 3 "" H 8975 5700 50  0000 C CNN
-	1    8975 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8975 5425 8975 5550
 Connection ~ 8975 5425
 Wire Wire Line
 	8975 5850 8975 6025
-$Comp
-L C C20
-U 1 1 5800D9AB
-P 9975 5025
-F 0 "C20" H 10000 5125 50  0000 L CNN
-F 1 "47pF" H 10000 4925 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10013 4875 50  0001 C CNN
-F 3 "" H 9975 5025 50  0000 C CNN
-	1    9975 5025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9975 4650 9975 4875
 Connection ~ 9975 4650
@@ -529,19 +500,6 @@ Wire Wire Line
 Wire Wire Line
 	9975 5275 9975 5175
 Connection ~ 10225 5275
-Text HLabel 10225 5350 3    60   Input ~ 0
-GND
-$Comp
-L C C21
-U 1 1 5800ECCA
-P 10225 5025
-F 0 "C21" H 10250 5125 50  0000 L CNN
-F 1 "47pF" H 10250 4925 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10263 4875 50  0001 C CNN
-F 3 "" H 10225 5025 50  0000 C CNN
-	1    10225 5025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10600 4650 10975 4650
 Wire Wire Line
@@ -550,7 +508,42 @@ Wire Wire Line
 	8975 6025 9500 6025
 Connection ~ 9500 6025
 Wire Wire Line
-	2900 4550 2225 4550
+	2900 4150 2225 4150
 Wire Wire Line
-	2900 4650 2225 4650
+	2900 4250 2225 4250
+Wire Wire Line
+	10625 3775 10100 3775
+Wire Wire Line
+	10625 3675 10100 3675
+Wire Wire Line
+	10250 3575 10625 3575
+Text HLabel 10250 3575 0    60   Input ~ 0
+GND
+Text Label 10350 3775 0    60   ~ 0
+RX1
+Text Label 10350 3675 0    60   ~ 0
+TX1
+$Comp
+L CONN_01X03 P2
+U 1 1 57FFEDF1
+P 10825 3675
+AR Path="/57F84F92/57FFEDF1" Ref="P2"  Part="1" 
+AR Path="/57FF4952/57FFEDF1" Ref="P3"  Part="1" 
+F 0 "P3" H 10825 3875 50  0000 C CNN
+F 1 "CONN_01X03" V 10925 3675 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 10825 3675 50  0001 C CNN
+F 3 "" H 10825 3675 50  0000 C CNN
+	1    10825 3675
+	1    0    0    -1  
+$EndComp
+Text HLabel 2025 2450 0    60   Input ~ 0
+BOOT
+Wire Wire Line
+	8700 3950 9250 3950
+Text HLabel 9250 3950 2    60   Input ~ 0
+ADC1
+Text HLabel 8950 4950 2    60   Input ~ 0
+PWR_SW
+Wire Wire Line
+	8950 4950 8700 4950
 $EndSCHEMATC
