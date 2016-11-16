@@ -350,68 +350,43 @@ Text Label 4900 925  0    60   ~ 0
 $Comp
 L CONN_01X08 P1
 U 1 1 5828C2FF
-P 2175 4850
-F 0 "P1" H 2175 5100 50  0000 C CNN
-F 1 "CONN_01X08" V 2300 4825 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 2175 3650 50  0001 C CNN
-F 3 "" H 2175 3650 50  0000 C CNN
-	1    2175 4850
+P 1350 7000
+F 0 "P1" V 1475 7300 50  0000 C CNN
+F 1 "CONN_01X08" V 1475 6975 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 1350 5800 50  0001 C CNN
+F 3 "" H 1350 5800 50  0000 C CNN
+	1    1350 7000
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR08
-U 1 1 5828C6C6
-P 1700 5200
-F 0 "#PWR08" H 1700 4950 50  0001 C CNN
-F 1 "GND" H 1700 5050 50  0000 C CNN
-F 2 "" H 1700 5200 50  0000 C CNN
-F 3 "" H 1700 5200 50  0000 C CNN
-	1    1700 5200
-	0    1    1    0   
-$EndComp
-Text Label 1650 4500 0    60   Italic 0
-V_BAT
-Text Label 1650 4600 0    60   ~ 0
-CH1
-Text Label 1875 5100 2    60   ~ 0
-CH2
-Text Label 1650 4700 0    60   ~ 0
-CH3
-Text Label 1875 5000 2    60   ~ 0
-CH4
-Text Label 1650 4800 0    60   ~ 0
-CH5
-Text Label 1875 4900 2    60   ~ 0
-CH6
-Text Notes 1575 4325 0    60   Italic 0
+Text Notes 750  6450 0    60   Italic 0
 CH1 : ESC 1\nCH2 : ESC 2\nCH3 : ESC 3\nCH4 : ESC 4\nCH5 : LED DRIVER 1\nCH6 : LED DRIVER 2
 $Comp
 L CONN_01X03 P3
 U 1 1 5828FD4F
-P 3400 5825
-F 0 "P3" H 3400 6025 50  0000 C CNN
-F 1 "CONN_01X03" V 3500 5825 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 3400 5825 50  0001 C CNN
-F 3 "" H 3400 5825 50  0000 C CNN
-	1    3400 5825
+P 4200 7000
+F 0 "P3" H 4200 7200 50  0000 C CNN
+F 1 "CONN_01X03" V 4300 7000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 4200 7000 50  0001 C CNN
+F 3 "" H 4200 7000 50  0000 C CNN
+	1    4200 7000
 	1    0    0    -1  
 $EndComp
-Text Label 2700 5825 0    60   ~ 0
+Text Label 3500 7000 0    60   ~ 0
 5V
-Text Label 2700 5925 0    60   ~ 0
+Text Label 3500 7100 0    60   ~ 0
 5V
 $Comp
-L GND #PWR09
+L GND #PWR08
 U 1 1 582905C9
-P 3000 5725
-F 0 "#PWR09" H 3000 5475 50  0001 C CNN
-F 1 "GND" H 3000 5575 50  0000 C CNN
-F 2 "" H 3000 5725 50  0000 C CNN
-F 3 "" H 3000 5725 50  0000 C CNN
-	1    3000 5725
+P 3800 6900
+F 0 "#PWR08" H 3800 6650 50  0001 C CNN
+F 1 "GND" H 3800 6750 50  0000 C CNN
+F 2 "" H 3800 6900 50  0000 C CNN
+F 3 "" H 3800 6900 50  0000 C CNN
+	1    3800 6900
 	0    1    1    0   
 $EndComp
-Text Notes 2650 6200 0    60   Italic 0
+Text Notes 3450 7375 0    60   Italic 0
 Raspberry Pi Power
 Text Label 2700 925  0    60   ~ 0
 5V
@@ -429,36 +404,114 @@ $EndComp
 $Comp
 L CONN_01X08 P2
 U 1 1 58293B03
-P 3400 4900
-F 0 "P2" H 3400 5150 50  0000 C CNN
-F 1 "CONN_01X08" V 3525 4875 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 3400 3700 50  0001 C CNN
-F 3 "" H 3400 3700 50  0000 C CNN
-	1    3400 4900
+P 2750 7000
+F 0 "P2" V 2875 7325 50  0000 C CNN
+F 1 "CONN_01X08" V 2875 6975 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 2750 5800 50  0001 C CNN
+F 3 "" H 2750 5800 50  0000 C CNN
+	1    2750 7000
 	1    0    0    -1  
 $EndComp
-Text Label 3075 4950 2    60   ~ 0
-SCL
-Text Label 3075 5050 2    60   ~ 0
-SDA
-Text Label 3125 5150 2    60   ~ 0
-ADC1
+Text Label 4175 2425 0    60   ~ 0
+MOTOR_1A
+Text Label 4175 2325 0    60   ~ 0
+MOTOR_1B
+Text Label 4175 2225 0    60   ~ 0
+MOTOR_1C
+Text Label 3075 2225 0    60   ~ 0
+MOTOR_2A
+Text Label 3075 2325 0    60   ~ 0
+MOTOR_2B
+Text Label 3075 2425 0    60   ~ 0
+MOTOR_2C
+Text Label 3075 2525 0    60   ~ 0
+MOTOR_3A
+Text Label 3075 2625 0    60   ~ 0
+MOTOR_3B
+Text Label 3075 2725 0    60   ~ 0
+MOTOR_3C
+Text Label 3075 3025 0    60   ~ 0
+MOTOR_4A
+Text Label 3075 2925 0    60   ~ 0
+MOTOR_4B
+Text Label 3075 2825 0    60   ~ 0
+MOTOR_4C
+Text Label 8575 4400 0    60   ~ 0
+T-
+Text Label 4525 2525 0    60   ~ 0
+T+
+Text Label 4525 2625 0    60   ~ 0
+T-
+Text Label 4525 3125 0    60   ~ 0
+5V
+Text Label 4475 2725 0    60   ~ 0
+CH5
+Text Label 4475 2825 0    60   ~ 0
+CH6
+Text Label 3075 3125 0    60   ~ 0
+V_BAT
+Text Label 3075 3225 0    60   ~ 0
+V_BAT
+$Comp
+L GND #PWR09
+U 1 1 5829FBC4
+P 3150 3325
+F 0 "#PWR09" H 3150 3075 50  0001 C CNN
+F 1 "GND" H 3150 3175 50  0000 C CNN
+F 2 "" H 3150 3325 50  0000 C CNN
+F 3 "" H 3150 3325 50  0000 C CNN
+	1    3150 3325
+	0    1    1    0   
+$EndComp
 $Comp
 L GND #PWR010
-U 1 1 582941F8
-P 3025 5250
-F 0 "#PWR010" H 3025 5000 50  0001 C CNN
-F 1 "GND" H 3025 5100 50  0000 C CNN
-F 2 "" H 3025 5250 50  0000 C CNN
-F 3 "" H 3025 5250 50  0000 C CNN
-	1    3025 5250
-	0    1    -1   0   
+U 1 1 5829FDF0
+P 4625 3325
+F 0 "#PWR010" H 4625 3075 50  0001 C CNN
+F 1 "GND" H 4625 3175 50  0000 C CNN
+F 2 "" H 4625 3325 50  0000 C CNN
+F 3 "" H 4625 3325 50  0000 C CNN
+	1    4625 3325
+	0    -1   -1   0   
 $EndComp
-NoConn ~ 3200 4650
-NoConn ~ 3200 4750
-NoConn ~ 3200 4850
-Text Label 2800 4550 0    60   ~ 0
-PWR_SW
+Text Label 4475 2925 0    60   ~ 0
+SCL
+Text Label 4475 3025 0    60   ~ 0
+SDA
+Text Label 2100 6650 0    60   ~ 0
+ADC
+$Comp
+L GND #PWR011
+U 1 1 582C7B1D
+P 2100 6750
+F 0 "#PWR011" H 2100 6500 50  0001 C CNN
+F 1 "GND" H 2100 6600 50  0000 C CNN
+F 2 "" H 2100 6750 50  0000 C CNN
+F 3 "" H 2100 6750 50  0000 C CNN
+	1    2100 6750
+	0    1    1    0   
+$EndComp
+Text Label 2100 6850 0    60   ~ 0
+SDA
+Text Label 2100 6950 0    60   ~ 0
+BOOT
+Text Label 2100 7050 0    60   ~ 0
+SCL
+Text Label 2100 7150 0    60   ~ 0
+SW
+$Comp
+L GND #PWR012
+U 1 1 582C7F2B
+P 2100 7250
+F 0 "#PWR012" H 2100 7000 50  0001 C CNN
+F 1 "GND" H 2100 7100 50  0000 C CNN
+F 2 "" H 2100 7250 50  0000 C CNN
+F 3 "" H 2100 7250 50  0000 C CNN
+	1    2100 7250
+	0    1    1    0   
+$EndComp
+Text Label 2100 7350 0    60   ~ 0
+3V3_Front
 Wire Wire Line
 	6425 975  6675 975 
 Wire Wire Line
@@ -558,37 +611,11 @@ Connection ~ 4575 925
 Wire Wire Line
 	4575 1425 4575 1350
 Wire Wire Line
-	1975 4500 1650 4500
+	4000 7000 3500 7000
 Wire Wire Line
-	1975 5200 1700 5200
+	4000 7100 3500 7100
 Wire Wire Line
-	1975 4600 1650 4600
-Wire Wire Line
-	1975 5100 1700 5100
-Wire Wire Line
-	1975 4700 1650 4700
-Wire Wire Line
-	1975 4800 1650 4800
-Wire Wire Line
-	1975 5000 1700 5000
-Wire Wire Line
-	1975 4900 1700 4900
-Wire Wire Line
-	3200 5825 2700 5825
-Wire Wire Line
-	3200 5925 2700 5925
-Wire Wire Line
-	3000 5725 3200 5725
-Wire Wire Line
-	3200 4950 2925 4950
-Wire Wire Line
-	3200 5050 2925 5050
-Wire Wire Line
-	3200 5150 2925 5150
-Wire Wire Line
-	3200 5250 3025 5250
-Wire Wire Line
-	2800 4550 3200 4550
+	3800 6900 4000 6900
 Wire Wire Line
 	3625 2225 3075 2225
 Wire Wire Line
@@ -613,90 +640,24 @@ Wire Wire Line
 	4125 2225 4625 2225
 Wire Wire Line
 	4125 3325 4625 3325
-Text Label 4175 2425 0    60   ~ 0
-MOTOR_1A
-Text Label 4175 2325 0    60   ~ 0
-MOTOR_1B
-Text Label 4175 2225 0    60   ~ 0
-MOTOR_1C
-Text Label 3075 2225 0    60   ~ 0
-MOTOR_2A
-Text Label 3075 2325 0    60   ~ 0
-MOTOR_2B
-Text Label 3075 2425 0    60   ~ 0
-MOTOR_2C
-Text Label 3075 2525 0    60   ~ 0
-MOTOR_3A
-Text Label 3075 2625 0    60   ~ 0
-MOTOR_3B
-Text Label 3075 2725 0    60   ~ 0
-MOTOR_3C
-Text Label 3075 3025 0    60   ~ 0
-MOTOR_4A
-Text Label 3075 2925 0    60   ~ 0
-MOTOR_4B
-Text Label 3075 2825 0    60   ~ 0
-MOTOR_4C
 Wire Wire Line
 	4125 2325 4625 2325
 Wire Wire Line
 	4125 3125 4625 3125
 Wire Wire Line
 	4125 2425 4625 2425
-Text Label 8575 4400 0    60   ~ 0
-T-
 Wire Wire Line
 	4125 2525 4625 2525
 Wire Wire Line
 	4125 2625 4625 2625
-Text Label 4525 2525 0    60   ~ 0
-T+
-Text Label 4525 2625 0    60   ~ 0
-T-
-Text Label 4525 3125 0    60   ~ 0
-5V
 Wire Wire Line
 	4125 2725 4625 2725
 Wire Wire Line
 	4125 2825 4625 2825
-Text Label 4475 2725 0    60   ~ 0
-CH5
-Text Label 4475 2825 0    60   ~ 0
-CH6
 Wire Wire Line
 	3625 3225 3075 3225
-Text Label 3075 3125 0    60   ~ 0
-V_BAT
-Text Label 3075 3225 0    60   ~ 0
-V_BAT
-$Comp
-L GND #PWR011
-U 1 1 5829FBC4
-P 3150 3325
-F 0 "#PWR011" H 3150 3075 50  0001 C CNN
-F 1 "GND" H 3150 3175 50  0000 C CNN
-F 2 "" H 3150 3325 50  0000 C CNN
-F 3 "" H 3150 3325 50  0000 C CNN
-	1    3150 3325
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3150 3325 3625 3325
-$Comp
-L GND #PWR012
-U 1 1 5829FDF0
-P 4625 3325
-F 0 "#PWR012" H 4625 3075 50  0001 C CNN
-F 1 "GND" H 4625 3175 50  0000 C CNN
-F 2 "" H 4625 3325 50  0000 C CNN
-F 3 "" H 4625 3325 50  0000 C CNN
-	1    4625 3325
-	0    -1   -1   0   
-$EndComp
-Text Label 4475 2925 0    60   ~ 0
-SCL
-Text Label 4475 3025 0    60   ~ 0
-SDA
 Wire Wire Line
 	4125 3025 4625 3025
 Wire Wire Line
@@ -708,4 +669,65 @@ Wire Wire Line
 Connection ~ 4225 3325
 Wire Wire Line
 	3325 925  2700 925 
+Wire Wire Line
+	2550 6650 2100 6650
+Wire Wire Line
+	2100 6750 2550 6750
+Wire Wire Line
+	2550 6850 2100 6850
+Wire Wire Line
+	2550 6950 2100 6950
+Wire Wire Line
+	2550 7050 2100 7050
+Wire Wire Line
+	2550 7150 2100 7150
+Wire Wire Line
+	2550 7250 2100 7250
+Wire Wire Line
+	2550 7350 2100 7350
+Wire Wire Line
+	1150 6650 725  6650
+Text Label 725  6650 0    60   ~ 0
+V_BAT
+$Comp
+L GND #PWR013
+U 1 1 582C9BEF
+P 725 6750
+F 0 "#PWR013" H 725 6500 50  0001 C CNN
+F 1 "GND" H 725 6600 50  0000 C CNN
+F 2 "" H 725 6750 50  0000 C CNN
+F 3 "" H 725 6750 50  0000 C CNN
+	1    725  6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	725  6750 1150 6750
+Wire Wire Line
+	1150 6850 725  6850
+Text Label 725  6850 0    60   ~ 0
+CH2
+Wire Wire Line
+	1150 6950 725  6950
+Text Label 725  6950 0    60   ~ 0
+CH1
+Wire Wire Line
+	1150 7050 725  7050
+Wire Wire Line
+	1150 7150 725  7150
+Wire Wire Line
+	1150 7250 725  7250
+Wire Wire Line
+	1150 7350 725  7350
+Text Label 725  7050 0    60   ~ 0
+CH4
+Text Label 725  7150 0    60   ~ 0
+CH3
+Text Label 725  7250 0    60   ~ 0
+CH6
+Text Label 725  7350 0    60   ~ 0
+CH5
+Text Notes 800  7600 0    60   ~ 0
+Righit Braket
+Text Notes 2200 7600 0    60   ~ 0
+Left Braket
 $EndSCHEMATC

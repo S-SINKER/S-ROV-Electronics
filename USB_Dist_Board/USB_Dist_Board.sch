@@ -312,8 +312,6 @@ F11 "PWR_SW" I L 9000 4900 60
 $EndSheet
 Text Label 1075 3075 0    60   ~ 0
 USB_D_GND
-Text Label 2225 3075 0    60   ~ 0
-USB_D_GND
 $Comp
 L CONN_02X04 P7
 U 1 1 580B3562
@@ -422,8 +420,6 @@ Wire Wire Line
 	3200 1725 3800 1725
 Wire Wire Line
 	1075 3075 1575 3075
-Wire Wire Line
-	2075 3075 2725 3075
 Wire Wire Line
 	3200 1875 3800 1875
 Wire Wire Line
@@ -566,4 +562,5 @@ Wire Wire Line
 	950  4500 950  5100
 Text Label 2250 3900 0    60   ~ 0
 USB_B_GND
+NoConn ~ 2075 3075
 $EndSCHEMATC
