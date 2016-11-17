@@ -331,7 +331,7 @@ Text Label 8300 5225 0    60   ~ 0
 ADC1
 Text Label 1050 4200 0    60   ~ 0
 USB_B_GND
-Text Label 2550 4575 0    60   ~ 0
+Text Label 2550 4200 0    60   ~ 0
 ADC1
 Text Label 1050 4100 0    60   ~ 0
 BOOT
@@ -339,30 +339,6 @@ Text Label 1050 3900 0    60   ~ 0
 3V3_B
 Text Label 8300 4900 0    60   ~ 0
 PWR_SW
-$Comp
-L R R1
-U 1 1 582B2ECF
-P 2275 4350
-F 0 "R1" V 2355 4350 50  0000 C CNN
-F 1 "R" V 2275 4350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" V 2205 4350 50  0001 C CNN
-F 3 "" H 2275 4350 50  0000 C CNN
-	1    2275 4350
-	1    0    0    -1  
-$EndComp
-Text Label 2275 5025 3    60   ~ 0
-USB_B_GND
-$Comp
-L R R2
-U 1 1 582B441F
-P 2275 4800
-F 0 "R2" V 2355 4800 50  0000 C CNN
-F 1 "R" V 2275 4800 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" V 2205 4800 50  0001 C CNN
-F 3 "" H 2275 4800 50  0000 C CNN
-	1    2275 4800
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R6
 U 1 1 582B732A
@@ -547,15 +523,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 4900 8300 4900
 Wire Wire Line
-	2275 4500 2275 4650
-Wire Wire Line
-	2275 4950 2275 5525
-Wire Wire Line
-	2275 4575 2750 4575
-Connection ~ 2275 4575
-Wire Wire Line
-	2075 4200 2275 4200
-Wire Wire Line
 	950  4000 950  4200
 Connection ~ 950  4000
 Wire Wire Line
@@ -563,4 +530,6 @@ Wire Wire Line
 Text Label 2250 3900 0    60   ~ 0
 USB_B_GND
 NoConn ~ 2075 3075
+Wire Wire Line
+	2075 4200 2775 4200
 $EndSCHEMATC
