@@ -101,121 +101,121 @@ $EndComp
 $Comp
 L DYS_mini_ESC U2
 U 1 1 582D897E
-P 9475 1325
-F 0 "U2" H 9125 1625 60  0000 C CNN
-F 1 "DYS_mini_ESC" H 9475 1025 60  0000 C CNN
-F 2 "KiCad_Footprint:DYS_Mini_ESC" H 9325 975 60  0001 C CNN
-F 3 "" H 9325 975 60  0001 C CNN
-	1    9475 1325
+P 9525 1200
+F 0 "U2" H 9175 1500 60  0000 C CNN
+F 1 "DYS_mini_ESC" H 9525 900 60  0000 C CNN
+F 2 "KiCad_Footprint:DYS_Mini_ESC" H 9375 850 60  0001 C CNN
+F 3 "" H 9375 850 60  0001 C CNN
+	1    9525 1200
 	1    0    0    -1  
 $EndComp
-Text Label 8300 1325 0    60   ~ 0
+Text Label 8050 1200 0    60   ~ 0
 CH1
-Text Label 10150 1175 0    60   ~ 0
+Text Label 10200 1050 0    60   ~ 0
 MOTOR_1A
-Text Label 10150 1325 0    60   ~ 0
+Text Label 10200 1200 0    60   ~ 0
 MOTOR_1B
-Text Label 10150 1475 0    60   ~ 0
+Text Label 10200 1350 0    60   ~ 0
 MOTOR_1C
 $Comp
 L CP1 C3
 U 1 1 582D8990
-P 8750 1325
-F 0 "C3" H 8775 1425 50  0000 L CNN
-F 1 "CP1" H 8775 1225 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8750 1325 50  0001 C CNN
-F 3 "" H 8750 1325 50  0000 C CNN
-	1    8750 1325
+P 8800 1200
+F 0 "C3" H 8825 1300 50  0000 L CNN
+F 1 "CP1" H 8825 1100 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8800 1200 50  0001 C CNN
+F 3 "" H 8800 1200 50  0000 C CNN
+	1    8800 1200
 	-1   0    0    1   
 $EndComp
 $Comp
 L DYS_mini_ESC U3
 U 1 1 582D8997
-P 9475 2025
-F 0 "U3" H 9125 2325 60  0000 C CNN
-F 1 "DYS_mini_ESC" H 9475 1725 60  0000 C CNN
-F 2 "KiCad_Footprint:DYS_Mini_ESC" H 9325 1675 60  0001 C CNN
-F 3 "" H 9325 1675 60  0001 C CNN
-	1    9475 2025
+P 9525 1900
+F 0 "U3" H 9175 2200 60  0000 C CNN
+F 1 "DYS_mini_ESC" H 9525 1600 60  0000 C CNN
+F 2 "KiCad_Footprint:DYS_Mini_ESC" H 9375 1550 60  0001 C CNN
+F 3 "" H 9375 1550 60  0001 C CNN
+	1    9525 1900
 	1    0    0    -1  
 $EndComp
-Text Label 8300 2025 0    60   ~ 0
+Text Label 8050 1900 0    60   ~ 0
 CH2
-Text Label 10150 1875 0    60   ~ 0
+Text Label 10200 1750 0    60   ~ 0
 MOTOR_2A
-Text Label 10150 2025 0    60   ~ 0
+Text Label 10200 1900 0    60   ~ 0
 MOTOR_2B
-Text Label 10150 2175 0    60   ~ 0
+Text Label 10200 2050 0    60   ~ 0
 MOTOR_2C
 $Comp
 L CP1 C4
 U 1 1 582D89A9
-P 8750 2025
-F 0 "C4" H 8775 2125 50  0000 L CNN
-F 1 "CP1" H 8775 1925 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8750 2025 50  0001 C CNN
-F 3 "" H 8750 2025 50  0000 C CNN
-	1    8750 2025
+P 8800 1900
+F 0 "C4" H 8825 2000 50  0000 L CNN
+F 1 "CP1" H 8825 1800 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8800 1900 50  0001 C CNN
+F 3 "" H 8800 1900 50  0000 C CNN
+	1    8800 1900
 	-1   0    0    1   
 $EndComp
 $Comp
 L DYS_mini_ESC U4
 U 1 1 582D89B0
-P 9475 2750
-F 0 "U4" H 9125 3050 60  0000 C CNN
-F 1 "DYS_mini_ESC" H 9475 2450 60  0000 C CNN
-F 2 "KiCad_Footprint:DYS_Mini_ESC" H 9325 2400 60  0001 C CNN
-F 3 "" H 9325 2400 60  0001 C CNN
-	1    9475 2750
+P 9525 2625
+F 0 "U4" H 9175 2925 60  0000 C CNN
+F 1 "DYS_mini_ESC" H 9525 2325 60  0000 C CNN
+F 2 "KiCad_Footprint:DYS_Mini_ESC" H 9375 2275 60  0001 C CNN
+F 3 "" H 9375 2275 60  0001 C CNN
+	1    9525 2625
 	1    0    0    -1  
 $EndComp
-Text Label 8300 2750 0    60   ~ 0
+Text Label 8050 2625 0    60   ~ 0
 CH3
-Text Label 10150 2600 0    60   ~ 0
+Text Label 10200 2475 0    60   ~ 0
 MOTOR_3A
-Text Label 10150 2750 0    60   ~ 0
+Text Label 10200 2625 0    60   ~ 0
 MOTOR_3B
-Text Label 10150 2900 0    60   ~ 0
+Text Label 10200 2775 0    60   ~ 0
 MOTOR_3C
 $Comp
 L CP1 C5
 U 1 1 582D89C2
-P 8750 2750
-F 0 "C5" H 8775 2850 50  0000 L CNN
-F 1 "CP1" H 8775 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8750 2750 50  0001 C CNN
-F 3 "" H 8750 2750 50  0000 C CNN
-	1    8750 2750
+P 8800 2625
+F 0 "C5" H 8825 2725 50  0000 L CNN
+F 1 "CP1" H 8825 2525 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8800 2625 50  0001 C CNN
+F 3 "" H 8800 2625 50  0000 C CNN
+	1    8800 2625
 	-1   0    0    1   
 $EndComp
 $Comp
 L DYS_mini_ESC U5
 U 1 1 582D89C9
-P 9475 3475
-F 0 "U5" H 9125 3775 60  0000 C CNN
-F 1 "DYS_mini_ESC" H 9475 3175 60  0000 C CNN
-F 2 "KiCad_Footprint:DYS_Mini_ESC" H 9325 3125 60  0001 C CNN
-F 3 "" H 9325 3125 60  0001 C CNN
-	1    9475 3475
+P 9525 3350
+F 0 "U5" H 9175 3650 60  0000 C CNN
+F 1 "DYS_mini_ESC" H 9525 3050 60  0000 C CNN
+F 2 "KiCad_Footprint:DYS_Mini_ESC" H 9375 3000 60  0001 C CNN
+F 3 "" H 9375 3000 60  0001 C CNN
+	1    9525 3350
 	1    0    0    -1  
 $EndComp
-Text Label 8300 3475 0    60   ~ 0
+Text Label 8050 3350 0    60   ~ 0
 CH4
-Text Label 10150 3325 0    60   ~ 0
+Text Label 10200 3200 0    60   ~ 0
 MOTOR_4A
-Text Label 10150 3475 0    60   ~ 0
+Text Label 10200 3350 0    60   ~ 0
 MOTOR_4B
-Text Label 10150 3625 0    60   ~ 0
+Text Label 10200 3500 0    60   ~ 0
 MOTOR_4C
 $Comp
 L CP1 C6
 U 1 1 582D89DB
-P 8750 3475
-F 0 "C6" H 8775 3575 50  0000 L CNN
-F 1 "CP1" H 8775 3375 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8750 3475 50  0001 C CNN
-F 3 "" H 8750 3475 50  0000 C CNN
-	1    8750 3475
+P 8800 3350
+F 0 "C6" H 8825 3450 50  0000 L CNN
+F 1 "CP1" H 8825 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8800 3350 50  0001 C CNN
+F 3 "" H 8800 3350 50  0000 C CNN
+	1    8800 3350
 	-1   0    0    1   
 $EndComp
 Text HLabel 8475 5175 0    60   Input ~ 0
@@ -224,13 +224,13 @@ Text HLabel 9850 5175 0    60   Input ~ 0
 L_GND
 Text HLabel 9850 5675 0    60   Input ~ 0
 L_GND
-Text HLabel 8625 1175 0    60   Input ~ 0
+Text HLabel 8675 1050 0    60   Input ~ 0
 L_GND
-Text HLabel 8625 1875 0    60   Input ~ 0
+Text HLabel 8675 1750 0    60   Input ~ 0
 L_GND
-Text HLabel 8625 2600 0    60   Input ~ 0
+Text HLabel 8675 2475 0    60   Input ~ 0
 L_GND
-Text HLabel 8625 3325 0    60   Input ~ 0
+Text HLabel 8675 3200 0    60   Input ~ 0
 L_GND
 Text Notes 8125 925  0    60   Italic 0
 BLDC ESC X 4
@@ -528,13 +528,13 @@ Text Label 4100 4200 0    60   ~ 0
 V_BAT
 Text Label 7400 4200 0    60   ~ 0
 V_PWR
-Text Label 8300 3625 0    60   ~ 0
+Text Label 8350 3500 0    60   ~ 0
 V_PWR
-Text Label 8300 2900 0    60   ~ 0
+Text Label 8350 2775 0    60   ~ 0
 V_PWR
-Text Label 8300 2175 0    60   ~ 0
+Text Label 8350 2050 0    60   ~ 0
 V_PWR
-Text Label 8300 1475 0    60   ~ 0
+Text Label 8350 1350 0    60   ~ 0
 V_PWR
 Text Label 6100 2575 0    60   ~ 0
 V_PWR
@@ -563,6 +563,42 @@ F 2 "Capacitors_SMD:C_0603" V 4380 5000 50  0001 C CNN
 F 3 "" H 4450 5000 50  0000 C CNN
 	1    4450 5000
 	1    0    0    -1  
+$EndComp
+Text Label 4850 4750 0    60   ~ 0
+ADC
+Text Notes 4650 4625 0    39   Italic 0
+Battery Voltage\n+20V full-scale into 3V3
+$Comp
+L DSN-MINI-360 U10
+U 1 1 582F10A5
+P 2175 1375
+F 0 "U10" H 2425 1175 60  0000 C CNN
+F 1 "DSN-MINI-360" H 2175 1550 43  0000 C CNN
+F 2 "KiCad_Footprint:DSN-MINI-360" H 2100 1200 60  0001 C CNN
+F 3 "" H 2100 1200 60  0001 C CNN
+	1    2175 1375
+	1    0    0    -1  
+$EndComp
+Text HLabel 1500 1400 0    60   Input ~ 0
+L_GND
+Text HLabel 2950 1400 2    60   Input ~ 0
+L_GND
+Text Label 1150 1300 0    60   ~ 0
+V_BAT
+Text Label 3175 1300 0    60   ~ 0
+5V
+Text Notes 875  1000 0    60   Italic 0
+Switching Regulator\nMust be replaced..
+$Comp
+L CONN_01X02 P5
+U 1 1 582F9651
+P 2875 950
+F 0 "P5" H 2875 1100 50  0000 C CNN
+F 1 "CONN_01X02" V 2975 950 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 2875 950 50  0001 C CNN
+F 3 "" H 2875 950 50  0000 C CNN
+	1    2875 950 
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	8900 5775 8475 5775
@@ -597,61 +633,61 @@ Wire Wire Line
 Wire Wire Line
 	10300 5075 9850 5075
 Wire Wire Line
-	8625 1175 8875 1175
+	8675 1050 8925 1050
 Wire Wire Line
-	10075 1175 10600 1175
+	10125 1050 10650 1050
 Wire Wire Line
-	10075 1325 10600 1325
+	10125 1200 10650 1200
 Wire Wire Line
-	10075 1475 10600 1475
+	10125 1350 10650 1350
 Wire Wire Line
-	8300 1475 8875 1475
+	8350 1350 8925 1350
 Wire Wire Line
-	8875 1325 8300 1325
-Connection ~ 8750 1475
-Connection ~ 8750 1175
+	8050 1200 8925 1200
+Connection ~ 8800 1350
+Connection ~ 8800 1050
 Wire Wire Line
-	8625 1875 8875 1875
+	8675 1750 8925 1750
 Wire Wire Line
-	10075 1875 10600 1875
+	10125 1750 10650 1750
 Wire Wire Line
-	10075 2025 10600 2025
+	10125 1900 10650 1900
 Wire Wire Line
-	10075 2175 10600 2175
+	10125 2050 10650 2050
 Wire Wire Line
-	8300 2175 8875 2175
+	8350 2050 8925 2050
 Wire Wire Line
-	8875 2025 8300 2025
-Connection ~ 8750 2175
-Connection ~ 8750 1875
+	8050 1900 8925 1900
+Connection ~ 8800 2050
+Connection ~ 8800 1750
 Wire Wire Line
-	8625 2600 8875 2600
+	8675 2475 8925 2475
 Wire Wire Line
-	10075 2600 10600 2600
+	10125 2475 10650 2475
 Wire Wire Line
-	10075 2750 10600 2750
+	10125 2625 10650 2625
 Wire Wire Line
-	10075 2900 10600 2900
+	10125 2775 10650 2775
 Wire Wire Line
-	8300 2900 8875 2900
+	8350 2775 8925 2775
 Wire Wire Line
-	8875 2750 8300 2750
-Connection ~ 8750 2900
-Connection ~ 8750 2600
+	8050 2625 8925 2625
+Connection ~ 8800 2775
+Connection ~ 8800 2475
 Wire Wire Line
-	8625 3325 8875 3325
+	8675 3200 8925 3200
 Wire Wire Line
-	10075 3325 10600 3325
+	10125 3200 10650 3200
 Wire Wire Line
-	10075 3475 10600 3475
+	10125 3350 10650 3350
 Wire Wire Line
-	10075 3625 10600 3625
+	10125 3500 10650 3500
 Wire Wire Line
-	8300 3625 8875 3625
+	8350 3500 8925 3500
 Wire Wire Line
-	8875 3475 8300 3475
-Connection ~ 8750 3625
-Connection ~ 8750 3325
+	8050 3350 8925 3350
+Connection ~ 8800 3500
+Connection ~ 8800 3200
 Wire Notes Line
 	7975 750  10875 750 
 Wire Notes Line
@@ -810,8 +846,158 @@ Wire Wire Line
 Wire Wire Line
 	4450 4750 5025 4750
 Connection ~ 4450 4750
-Text Label 4850 4750 0    60   ~ 0
-ADC
-Text Notes 4650 4625 0    39   Italic 0
-Battery Voltage\n+20V full-scale into 3V3
+Wire Wire Line
+	2700 1400 2950 1400
+Wire Wire Line
+	1650 1300 1150 1300
+Wire Wire Line
+	2700 1300 3275 1300
+Wire Notes Line
+	725  750  3800 750 
+Wire Notes Line
+	3800 750  3800 2775
+Wire Notes Line
+	725  750  725  2775
+Wire Wire Line
+	2825 1150 2825 1400
+Connection ~ 2825 1400
+Wire Wire Line
+	2925 1150 2925 1300
+Connection ~ 2925 1300
+Wire Wire Line
+	1500 1400 1650 1400
+Text Notes 3075 1075 0    60   Italic 0
+External 5V
+NoConn ~ 9850 5775
+NoConn ~ 9850 5375
+$Comp
+L TLV1117LV33 U11
+U 1 1 582FD94F
+P 2150 1975
+F 0 "U11" H 1900 1725 50  0000 C CNN
+F 1 "TLV1117LV33" H 2150 2175 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 2150 2075 50  0001 C CIN
+F 3 "" H 2150 1975 50  0000 C CNN
+	1    2150 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 582FD956
+P 1550 2200
+F 0 "C11" H 1575 2300 50  0000 L CNN
+F 1 "C" H 1575 2100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1588 2050 50  0001 C CNN
+F 3 "" H 1550 2200 50  0000 C CNN
+	1    1550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 582FD95D
+P 2150 2475
+F 0 "#PWR05" H 2150 2225 50  0001 C CNN
+F 1 "GND" H 2150 2325 50  0000 C CNN
+F 2 "" H 2150 2475 50  0000 C CNN
+F 3 "" H 2150 2475 50  0000 C CNN
+	1    2150 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 582FD963
+P 2950 2200
+F 0 "C12" H 2975 2300 50  0000 L CNN
+F 1 "C" H 2975 2100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2988 2050 50  0001 C CNN
+F 3 "" H 2950 2200 50  0000 C CNN
+	1    2950 2200
+	1    0    0    -1  
+$EndComp
+Text Label 3275 1925 0    60   ~ 0
+3V3
+Text Label 1075 1925 0    60   ~ 0
+5V
+Wire Wire Line
+	1550 1925 1550 2050
+Connection ~ 1550 1925
+Wire Wire Line
+	2150 2275 2150 2475
+Wire Wire Line
+	1550 2350 1550 2425
+Wire Wire Line
+	1550 2425 2950 2425
+Connection ~ 2150 2425
+Wire Wire Line
+	2600 1925 3425 1925
+Wire Wire Line
+	2600 2075 2825 2075
+Wire Wire Line
+	2825 2075 2825 1925
+Connection ~ 2825 1925
+Wire Wire Line
+	2950 1925 2950 2050
+Connection ~ 2950 1925
+Wire Wire Line
+	2950 2425 2950 2350
+Wire Wire Line
+	1700 1925 1075 1925
+Wire Notes Line
+	725  2775 3800 2775
+$Comp
+L R R14
+U 1 1 582FEC63
+P 8275 1350
+F 0 "R14" H 8375 1275 50  0000 C CNN
+F 1 "10k" V 8275 1350 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 8205 1350 50  0001 C CNN
+F 3 "" H 8275 1350 50  0000 C CNN
+	1    8275 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R15
+U 1 1 582FFFB2
+P 8275 2050
+F 0 "R15" H 8375 1975 50  0000 C CNN
+F 1 "10k" V 8275 2050 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 8205 2050 50  0001 C CNN
+F 3 "" H 8275 2050 50  0000 C CNN
+	1    8275 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 583002C6
+P 8275 2775
+F 0 "R16" H 8375 2700 50  0000 C CNN
+F 1 "10k" V 8275 2775 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 8205 2775 50  0001 C CNN
+F 3 "" H 8275 2775 50  0000 C CNN
+	1    8275 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 58300614
+P 8275 3500
+F 0 "R17" H 8375 3425 50  0000 C CNN
+F 1 "10k" V 8275 3500 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" V 8205 3500 50  0001 C CNN
+F 3 "" H 8275 3500 50  0000 C CNN
+	1    8275 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8275 3350
+Connection ~ 8275 2625
+Connection ~ 8275 1900
+Connection ~ 8275 1200
+Text HLabel 8275 1500 3    60   Input ~ 0
+L_GND
+Text HLabel 8275 2200 3    60   Input ~ 0
+L_GND
+Text HLabel 8275 2925 3    60   Input ~ 0
+L_GND
+Text HLabel 8275 3650 3    60   Input ~ 0
+L_GND
 $EndSCHEMATC
