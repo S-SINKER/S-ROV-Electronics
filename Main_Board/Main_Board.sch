@@ -45,14 +45,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 7425 750  1275 2325
+S 2200 900  1200 1300
 U 582D6DEA
 F0 "Bottom_Board" 60
 F1 "Bottom_Board.sch" 60
-F2 "L_GND" I L 7425 1575 60 
 $EndSheet
 $Sheet
-S 5725 1925 1175 1300
+S 875  900  1175 1300
 U 58347913
 F0 "Upper_Board" 60
 F1 "Upper_Board.sch" 60
